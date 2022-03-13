@@ -1,0 +1,11 @@
+﻿@*Dùng viewbag hiển thị tổng tiền và tổng số lượng sản phẩm*@
+<div id="divGioHang" class="cart box_1">
+
+    <a href="@Url.Action("XemGioHang","GioHang")">
+        <div class="total">
+            <i class=" bi bi-handbag" style="font-size:40px;color:orange"></i><span class="badge badge-secondary" style="font-size:12px;">@ViewBag.TongSoLuong</span></i>
+            @*ViewBag.TongTien.ToString("#,##") VNĐ(<span></span> sp)*@
+        </div>
+    </a>
+</div>
+

@@ -1,0 +1,6 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    if(!string.IsNullOrEmpty(Request["lang"])) {
+        Culture = UICulture = Request["lang"];
+            }
+}

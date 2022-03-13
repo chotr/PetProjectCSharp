@@ -1,0 +1,148 @@
+﻿@using PetsProject.Models
+
+@{
+    ViewBag.Title = "XemGioHang";
+    Layout = "~/Views/Layout/CartLayout.cshtml";
+    List<cart> listCart = ViewBag.listCart as List<cart>;
+}
+
+@if (listCart == null || listCart.Count() <= 0)
+{
+<h1 style="color:red">@PetsProject.Resources.Data.EmptyCart</h1>
+}
+else
+{
+    
+    <div class="table-responsive" id="here">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">@PetsProject.Resources.Data.CardProduct</th>
+                    <th scope="col">@PetsProject.Resources.Data.Price</th>
+                    <th scope="col">@PetsProject.Resources.Data.Quantity</th>
+                    <th scope="col">@PetsProject.Resources.Data.Total</th>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var item in listCart)
+                {
+                   
+                    <tr id="rowcart@(item.idproduct)">
+                        <td>
+                            <div class="media">
+                                <input type="hidden" value="@item.idproduct" id="productid" />
+
+                                <div class="d-flex">
+                                    <img src="@Url.Content("~/"+@item.pet.imageslink)" width="150" height="100" alt="">
+                                </div>
+                                <div class="media-body">
+
+                                    <p>@item.pet.name</p>
+                                </div>
+
+                            </div>
+                        </td>
+                        <td>
+                            <h5 id="priceSP">@item.price.ToString("#,## VNĐ")</h5>
+                        </td>
+                        <td>
+                            <div class="product_count">
+                                <input type="text" name="quantity" value="@item.quantity" id="sst" maxlength="12" title="Quantity"
+                                       class="input-text qty" disabled>
+                            </div>
+                        </td>
+                        <td>
+                            <h5 id="total">@item.totalcost.ToString("#,## VNĐ")</h5>
+                        </td>
+
+                        <td>
+
+                            @Html.ActionLink(PetsProject.Resources.Data.Edit, "SuaGioHang", new { @MaSP = item.idproduct }, new { @class = "btn btn-success" })
+
+                            @Ajax.ActionLink("X", "XoaGioHangAjax", "GioHang", new { @MaSP = item.idproduct }, new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "divGioHang", InsertionMode = InsertionMode.Replace, OnSuccess = "RemoveRow" }, new { @class = "btn btn-danger" })
+                            @* <button type="button" class="btn btn-danger" onclick="deleteItem(name)" name="@item.idproduct"><b>X</b></button>*@
+
+                        </td>
+
+                            </tr>
+                        }
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><h4 id="totalToPay">@PetsProject.Resources.Data.Total: <span style="color:orange">@ViewBag.TongTien.ToString("#,## VNĐ")</span></h4></td>
+            </tr>
+
+                        <tr class="shipping_area">
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                                <h5>@PetsProject.Resources.Data.Shipping</h5>
+                            </td>
+                            <td>
+                                <div class="shipping_box">
+                                    <ul class="list">
+                                        <li class="active"><a href="#">@PetsProject.Resources.Data.FreeShipping</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="out_button_area">
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+
+                            <td>
+                                <div class="checkout_btn_inner d-flex align-items-center">
+                                    <a class="gray_btn" href="@Url.Action("SanPham","SanPham")">@PetsProject.Resources.Data.ContinueShopping</a>
+                                    <a class="primary-btn" href="@Url.Action("ThanhToan","GioHang")">@PetsProject.Resources.Data.Checkout</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                }
+
+        <script type="text/javascript">
+            function deleteItem(idProduct) {
+                var edit = {};
+                edit["id"] = idProduct;
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json",
+                    url: "/GioHang/XoaGioHangAjax",
+                    data: JSON.stringify(edit),
+                    dataType: 'json',
+                    cache: false,
+                    timeout: 600000,
+                    success: function (data) {
+                        var tr = $('#rowcart' + idProduct).closest('tr');
+                        tr.remove();
+                    },
+                    error: function () {
+
+                        alert("Have failed!");
+
+                    }
+                });
+            }
+
+            function RemoveRow() {
+                var $tr = $(this).closest('tr');
+                $tr.remove();
+                $("#totalToPay").hide();
+
+            }
+
+
+        </script>

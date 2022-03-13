@@ -1,0 +1,189 @@
+﻿@using PetsProject.Models
+@model IEnumerable<pet>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Layout/HomeLayout.cshtml";
+}
+@{
+    IEnumerable<pet> lstSP = ViewBag.ListSP as IEnumerable<pet>;
+}
+
+<!-- start product Area -->
+<section class="sample_product product_tilte section_gap">
+    <!-- single product slide -->
+    <div class="single-product-slider">
+        <div class="container-fluid">
+            <div class="Tilte">
+                <div class="text-tile">
+                    <div class="section-title">
+                        <h2>@PetsProject.Resources.Data.SampleProduct</h2>
+                        <span class="slash">/</span>
+                        <p class="text">
+                            @PetsProject.Resources.Data.TextSampleProduct1
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (var item in lstSP.Take(8))
+                {
+                    <!-- single product -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single-product">
+                            <div class="img_product">
+                                <a href="@Url.Action("ChiTietSanPham","SanPham", new { id = item.id })">
+                                    <img class="img-fluid" src="@Url.Content("~/"+item.imageslink)" alt="">
+                                </a>
+                            </div>
+                            <div class="product-details">
+                                <h6>
+                                    @item.name
+                                </h6>
+                                <div class="price">
+                                    <h6>@item.price.ToString("#,## VNĐ")</h6>
+                                    <h6 class="l-through">@item.pricebefore.ToString("#,## VNĐ")</h6>
+                                </div>
+                                <div class="add&buy">
+                                    @if (item.status == "AVAILABLE")
+                                    {
+                                        @*Thêm giỏ hàng Ajax*@
+                                        @Ajax.ActionLink(PetsProject.Resources.Data.AddtoCard, "ThemGioHangAjax", "GioHang", new { @MaSP = item.id, @strUrl = Request.Url.ToString() }, new AjaxOptions { HttpMethod = "GET", UpdateTargetId = "divGioHang", InsertionMode = InsertionMode.Replace }, new { @class = "btn btn-add btn-sm", @onclick = "alert('Add to cart success!')" })
+                                        <a href="/GioHang/ThemGioHang/@(item.id)"><button type="button" class="btn btn-buy btn-sm">@PetsProject.Resources.Data.BuyNow</button></a>
+                                    }
+                                    else
+                                    {
+                                        <p style="color:orange">@item.status</p>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+<!-- start product Area -->
+<!-- Start category Area -->
+<section class="category-area" style="width: 75%; margin: auto;">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <div class="single-deal">
+                            <div class="overlay"></div>
+                            <img class="img-fluid w-100" src="~/img/category/bn3.jpg" alt="">
+                            <a href="~/img/category/c1.jpg" class="img-pop-up" target="_blank">
+                                <div class="deal-details">
+                                    <h6 class="deal-title">Shirt for boss</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="single-deal">
+                            <div class="overlay"></div>
+                            <img class="img-fluid w-100" src="~/img/category/bn6.jpg" alt="">
+                            <a href="~/img/category/c2.jpg" class="img-pop-up" target="_blank">
+                                <div class="deal-details">
+                                    <h6 class="deal-title">Bowl for boss</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="single-deal">
+                            <div class="overlay"></div>
+                            <img class="img-fluid w-100" src="~/img/category/bn1.jpg" alt="">
+                            <a href="~/img/category/c3.jpg" class="img-pop-up" target="_blank">
+                                <div class="deal-details">
+                                    <h6 class="deal-title">Discount products</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8">
+                        <div class="single-deal">
+                            <div class="overlay"></div>
+                            <img class="img-fluid w-100" src="~/img/category/bn2.jpg" alt="">
+                            <a href="~/img/category/c4.jpg" class="img-pop-up" target="_blank">
+                                <div class="deal-details">
+                                    <h6 class="deal-title">Food for dog</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-deal">
+                    <div class="overlay"></div>
+                    <img class="img-fluid w-100" src="~/img/category/bn8.jpg" alt="">
+                    <a href="~/img/category/c5.jpg" class="img-pop-up" target="_blank">
+                        <div class="deal-details">
+                            <h6 class="deal-title">Sale off for boss</h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End category Area -->
+<!-- single product slide -->
+<section class="trusted_product product_tilte">
+    <div class="container-fluid">
+        <div class="Tilte">
+            <div class="text-tile">
+                <div class="section-title">
+                    <h2>@PetsProject.Resources.Data.TrustedProduct</h2>
+                    <span class="slash">/</span>
+                    <p class="text">
+                        @PetsProject.Resources.Data.TextSampleProduct2
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item2 in lstSP.OrderBy(n => n.price).Take(8))
+            {
+                <!-- single product -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-product">
+                        <div class="img_product">
+                            <a href="@Url.Action("ChiTietSanPham","SanPham", new { id = item2.id })">
+                                <img class="img-fluid" src="@Url.Content("~/"+item2.imageslink)" alt="">
+                            </a>
+                        </div>
+                        <div class="product-details">
+                            <h6>
+                                @item2.name
+                            </h6>
+                            <div class="price">
+                                <h6>@item2.price.ToString("#,## VNĐ")</h6>
+                                <h6 class="l-through">@item2.pricebefore.ToString("#,## VNĐ")</h6>
+                            </div>
+                            <div class="add&buy">
+                                @if (item2.status == "AVAILABLE")
+                                {
+                                    @*Thêm giỏ hàng Ajax*@
+                                    @Ajax.ActionLink(PetsProject.Resources.Data.AddtoCard, "ThemGioHangAjax", "GioHang", new { @MaSP = item2.id, @strUrl = Request.Url.ToString() }, new AjaxOptions { HttpMethod = "GET", UpdateTargetId = "divGioHang", InsertionMode = InsertionMode.Replace }, new { @class = "btn btn-add btn-sm", @onclick = "alert('Add to cart success!')" })
+                                    <a href="/GioHang/ThemGioHang/@(item2.id)"><button type="button" class="btn btn-buy btn-sm">@PetsProject.Resources.Data.BuyNow</button></a>
+                                }
+                                else
+                                {
+                                    <p style="color:orange">@item2.status</p>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+<script>
+    $("#homeMenu").attr('class', 'nav-item active');
+</script>
+<!-- end product Area -->

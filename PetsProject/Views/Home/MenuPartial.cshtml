@@ -1,0 +1,97 @@
+﻿@using PetsProject.Models
+@using System.Globalization
+
+<head>
+
+
+    <link rel="stylesheet" href="~/Content/linearicons.css">
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Content/themify-icons.css">
+    <link rel="stylesheet" href="~/Content/bootstrap.css">
+    <link rel="stylesheet" href="~/Content/owl.carousel.css">
+    <link rel="stylesheet" href="~/Content/nice-select.css">
+    <link rel="stylesheet" href="~/Content/nouislider.min.css">
+    <link rel="stylesheet" href="~/Content/ion.rangeSlider.css" />
+    <link rel="stylesheet" href="~/Content/ion.rangeSlider.skinFlat.css" />
+    <link rel="stylesheet" href="~/Content/magnific-popup.css">
+    <link rel="stylesheet" href="~/Content/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<!-- Start Header Area -->
+<header class="header_area sticky-header" id="menu_load">
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light main_box">
+            <a class="navbar-brand logo_h" href="/">
+                <img src="~/img/icon/logo.png" alt="logo" />
+            </a>
+            <button type="button"
+                    class="navbar-toggler"
+                    data-toggle="collapse"
+                    data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <div class="navbar-nav">
+                    <div class="nav-item" id="search_input">
+                        <a href="/SanPham/SearchProduct">
+                            <button type="button" class="btn btn-light btn_search">
+                                @PetsProject.Resources.Data.SearchButton <sapn class="ml-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                    </svg>
+                                </sapn>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <a href="@Url.Action("Index", "Home")" class="nav-item nav-link" id="homeMenu">@PetsProject.Resources.Data.Home</a>
+                    <a href="@Url.Action("SanPham", "SanPham")" class="nav-item nav-link" id="productMenu">@PetsProject.Resources.Data.Product</a>
+                    <a href="@Url.Action("About", "Home")" class="nav-item nav-link" id="aboutMenu">About</a>
+                    <a href="@Url.Action("Contact", "Home")" class="nav-item nav-link" id="contactMenu">Contact</a>
+                </div>
+                @if (Session["acc"] == null)
+                {
+                    <div class="log_in_out navbar-nav ml-auto">
+                        <div class="nav-item">
+                            <a href="/Login/SignIn" class="btn btn_signin">Sign in</a>
+                        </div>
+                    </div>
+                    <div class="log_in_out navbar-nav">
+                        <div class="nav-item">
+                            <a href="/Register/SignUp" class="btn btn_signup">Sign up</a>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    account acc = (account)Session["acc"];
+                    <div class="user navbar-nav ml-auto">
+                        <div class="nav-item ">
+                            <a href="/ManageAccount/Index" class="username">
+                                <div class="menuAvatar">
+                                    <img src="~/@(acc.avatar)" alt="Admin" class="rounded-circle" width="40" height="40">
+                                </div>
+                                <span>
+                                    @(acc.username)
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="log_in_out navbar-nav">
+                        <div class="nav-item">
+                            <a href="/Login/SignOut" class="btn btn_signup">Log out</a>
+                        </div>
+                    </div>
+                }
+
+                <div class="navbar-nav">
+                    <div class="nav-item">
+                        <div class="cart">@Html.Action("GioHangPartial", "GioHang")</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>

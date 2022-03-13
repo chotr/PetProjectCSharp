@@ -1,0 +1,75 @@
+﻿@using PetsProject.Models
+@{
+    account acc = Session["acc"] as account;
+}
+
+<!DOCTYPE html>
+
+
+<head>
+    <title>Admin Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Mulish:300,400,500,600,700,800,900" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/Content/Admin/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/Admin/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="~/Content/Admin/uniform.css" />
+    <link rel="stylesheet" href="~/Content/Admin/select2.css" />
+    <link rel="stylesheet" href="~/Content/Admin/matrix-style.css" />
+    <link rel="stylesheet" href="~/Content/Admin/matrix-media.css" />
+    <link href="~/fonts/Admin/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800'
+          rel='stylesheet' type='text/css'>
+
+    <style>
+        .checked {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <!--Header-part-->
+    <div id="header">
+        <h1>
+            <a href="#">Admin</a>
+        </h1>
+    </div>
+    <!--close-Header-part-->
+    <!--top-Header-menu-->
+    <div id="user-nav" class="navbar navbar-inverse">
+        <ul class="nav">
+            <li class=""><a title="" href="#"><i class="fa fa-user"></i> <span class="text">Hi, @(acc.fullname)</span></a></li>
+            <li class=""><a title="" href="/"><i class="fa fa-shopping-bag"></i> <span class="text">Go back to shop</span></a></li>
+            <li class=""><a title="" href="/ManageAccount/Index"><i class="icon icon-cog"></i> <span class="text">My Account</span></a></li>
+            <li class=""><a title="" href="/Login/SignOut"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+        </ul>
+    </div>
+
+
+    <!--sidebar-menu-->
+    <div id="sidebar">
+        <a href="#" class="visible-phone"><i class="icon icon-th"></i>Tables</a>
+        <ul>
+            <li class="" id="productMenu"><a href="/Admin_Product/Index"><i class="icon icon-th"></i> <span>Product Management</span></a></li>
+            <li class="" id="accountMenu"><a href="/Admin_Account/Index"><i class="icon icon-th-list"></i> <span>Account Management</span></a></li>
+            <li class="" id="billMenu"><a href="/Admin_Address/Index"><i class="icon icon-th-list"></i> <span>Bill Management</span></a></li>
+        </ul>
+    </div>
+    @RenderBody()
+    <!--Footer-part-->
+    <div class="row-fluid">
+        <div id="footer" class="span12"> 2020 &copy; Matrix Admin. Brought to you by <a href="http://themedesigner.in">Themedesigner.in</a> </div>
+    </div>
+    <!--end-Footer-part-->
+
+    <script src="~/Scripts/Admin/uploadImage.js"></script>
+    <script src="~/Scripts/Admin/hideElementBillPage.js"></script>
+    <script src="~/Scripts/Admin/event.js"></script>
+
+
+</body>
+</html>
+

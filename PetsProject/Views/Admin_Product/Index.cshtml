@@ -1,0 +1,88 @@
+﻿@model IEnumerable<PetsProject.Models.pet>
+
+@{
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+
+
+
+<div id="content">
+    <div id="content-header">
+        <div id="breadcrumb">
+            <a href="#" title="Go to Home" class="tip-bottom">
+                <i class="icon-home"></i> Home
+            </a> <a href="#" class="current">product</a>
+        </div>
+        <h1>Product Manager</h1>
+    </div>
+    <div class="container-fluid">
+        <hr>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"><i class="icon-th"></i></span>
+                        <h5>List of products available</h5>
+                        <a href="/Admin_Product/CreateProduct">
+                            <button type="button"
+                                    class="btn btn-info">
+                                New...
+                            </button>
+                        </a>
+                    </div>
+                    <div class="widget-content nopadding">
+                        <table class="table table-bordered data-table">
+                            <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>ID Product</th>
+                                    <th>Name Product</th>
+                                    <th>Type</th>
+                                    <th>Price</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model != null)
+                                {
+                                    var numRecord = 1;
+                                    foreach (var item in Model)
+                                    {
+                                        <tr class="gradeA">
+                                            <td>@numRecord</td>
+                                            <td>@item.id</td>
+                                            <td>@item.name</td>
+                                            <td>@item.type</td>
+                                            <td>@item.price</td>
+                                            <td>@item.status</td>
+                                            <td class="text-align-center">
+                                                <a href="/Admin_Product/ProductInfo/@item.id">
+                                                    <button type="button" class="btn btn-info">
+                                                        Info
+                                                    </button>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        numRecord++;
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/Admin/jquery.min.js"></script>
+<script src="~/Scripts/Admin/jquery.ui.custom.js"></script>
+<script src="~/Scripts/Admin/bootstrap.min.js"></script>
+<script src="~/Scripts/Admin/jquery.uniform.js"></script>
+<script src="~/Scripts/Admin/select2.min.js"></script>
+<script src="~/Scripts/Admin/jquery.dataTables.min.js"></script>
+<script src="~/Scripts/Admin/matrix.js"></script>
+<script src="~/Scripts/Admin/matrix.tables.js"></script>
+<script>
+    $("#productMenu").attr('class', 'active');
+</script>

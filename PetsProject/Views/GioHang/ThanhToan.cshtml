@@ -1,0 +1,162 @@
+﻿@using PetsProject.Models
+@model List<cart>
+@{
+    ViewBag.Title = "ThanhToan";
+    Layout = "~/Views/Layout/CheckoutLayout.cshtml";
+    account acc = ViewBag.acc as account;
+    List<address_Book> listAB = ViewBag.listAB as List<address_Book>;
+
+}
+
+@if (Model == null || Model.Count <= 0)
+{
+    <h1 style="color:red">@PetsProject.Resources.Data.EmptyCart</h1>
+}
+else
+{
+    <div class="container">
+
+        <div class="billing_details">
+            @using (Html.BeginForm("ThanhToan", "GioHang", FormMethod.Post))
+            {
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="divDatHang">
+
+                            @Html.AntiForgeryToken()
+                            @if (Session["acc"] != null)
+                            {
+                                @*Thiết kế form lưu thông tin khách hàng chưa tài khoản*@
+
+                                <div class="thongtinmuahang">
+                                    <h2>@PetsProject.Resources.Data.PurchaseInfo</h2>
+                                    <div class="form-group">
+                                        <label for="usr">@PetsProject.Resources.Data.FullName</label>
+                                        <input type="text" name="fullname" class="form-control" value="@acc.fullname" disabled>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pwd">@PetsProject.Resources.Data.Email</label>
+                                        <input type="text" name="email" class="form-control" value="@acc.email" disabled>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pwd">@PetsProject.Resources.Data.Phone</label>
+                                        <input type="text" name="phone" class="form-control" value="@acc.phone" disabled>
+                                    </div>
+                                    <div class="form-group" style="position: relative">
+                                        <label for="pwd">@PetsProject.Resources.Data.Address</label>
+                                        <input type="text" id="addressText" name="address" class="form-control" value="@acc.address">
+                                        <button type="button" class="btn btn-chnageAddress" data-toggle="modal" data-target="#myModal">Your address</button>
+                                        <div class="modal" id="myModal">
+                                            <div class="modal-dialog modal-lg">
+                                                <div class="modal-content">
+
+                                                    <!-- Modal Header -->
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title">@PetsProject.Resources.Data.ChooseAvailableAddress</h4>
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    </div>
+
+                                                    <!-- Modal body -->
+                                                    <div class="modal-body">
+                                                        <div class="form-group">
+                                                            <select class="span11" id="chooseAddressOption" size="3">
+                                                                @foreach (var item in listAB)
+                                                                {
+                                                                    if (item.status == "DEFAULT")
+                                                                    {
+                                                                        <option selected>@item.address</option>
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <option>@item.address</option>
+                                                                    }
+                                                                }
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Modal footer -->
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">@PetsProject.Resources.Data.Close</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pwd">@PetsProject.Resources.Data.Note</label>
+                                        <input type="text" name="note" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="payment" style="float:left">@PetsProject.Resources.Data.Payment</label>
+                                        @Html.DropDownList("payment", null, new { @class = "form-control", @id = "changePayment" })
+                                    </div>
+                                    <br />
+                                    <div class="form-group">
+                                        <p style="color:red;;" id="infoPayment">@PetsProject.Resources.Data.RedirectToPayPal</p>
+                                    </div>
+
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="order_box" style="margin-top:10%">
+                            <h2>@PetsProject.Resources.Data.YourOrder</h2>
+                            <ul class="list">
+                                <li><a href="#">@PetsProject.Resources.Data.Product <span>@PetsProject.Resources.Data.Total</span></a></li>
+                                @foreach (var item in Model)
+                                {
+                                    <li><a href="#">@item.pet.name<span class="middle">x @item.quantity</span> <span class="last">@item.totalcost.ToString("#,## VNĐ")</span></a></li>
+                                }
+                            </ul>
+                            <ul class="list list_2">
+                                <li><a href="#">@PetsProject.Resources.Data.SubTotal <span>@ViewBag.TongTien.ToString("#,## VNĐ")</span></a></li>
+                                <li><a href="#">Shipping <span>@PetsProject.Resources.Data.Free</span></a></li>
+                                <li><a href="#">@PetsProject.Resources.Data.Total <span>@ViewBag.TongTien.ToString("#,## VNĐ")</span></a></li>
+                            </ul>
+
+                            <div class="payment_item" style="display:none">
+                                @Html.TextBox("status", (string)ViewBag.DHStatus)
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="check_out_ele" style="margin-top:10px">
+                    <a href="/SanPham/SanPham" style="margin-right:10px">@PetsProject.Resources.Data.BuyMoreItem</a>
+                    <button type="submit" id="btnDatHang" class="btn btn-checkout" style="float:right">@PetsProject.Resources.Data.OrderNow</button>
+                </div>
+            }
+
+        </div>
+    </div>
+
+
+}
+<style>
+    .payment {
+        width: 200px;
+    }
+</style>
+<script>
+    $('#infoPayment').hide();
+    $(document).ready(function () {
+        $('#chooseAddressOption').change(function () {
+            var text = $("#chooseAddressOption option:selected").text();
+            $('#addressText').val(text);
+        });
+        $('#changePayment').change(function () {
+            var text = $("#changePayment option:selected").text();
+            if (text == 'PAYPAL') {
+                $('#infoPayment').show();
+            } else {
+                $('#infoPayment').hide();
+            }
+        });
+    });
+</script>

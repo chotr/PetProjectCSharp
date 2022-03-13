@@ -1,0 +1,208 @@
+﻿@model PetsProject.Models.AccountDetailsAdminModel
+@{
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+<form action="/Admin_Account/SaveInfo" method="POST">
+    <input type="hidden" name="username" value="@Model.username" />
+    <!--Header-part-->
+    <div id="header">
+        <h1>
+            <a href="dashboard.html">Admin</a>
+        </h1>
+    </div>
+    <!--close-Header-part-->
+    <!--top-Header-menu-->
+    <!--sidebar menu-->
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb">
+                <a href="#" title="Go to Home"
+                   class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="tip-bottom">Account</a> <a href="#" class="current">Details</a>
+            </div>
+            <h1>Details of account</h1>
+        </div>
+        <div class="container-fluid">
+            <hr>
+            <div class="row-fluid">
+                <div class="span6">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon">
+                                <i class="icon-align-justify"></i>
+                            </span>
+                            <h5>Basic Information</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <div class="form-horizontal">
+                                <div class="control-group">
+                                    <label class="control-label">User name :</label>
+                                    <div class="controls">
+                                        <input disabled type="text" class="span6"
+                                               value="@Model.username" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Full Name :</label>
+                                    <div class="controls">
+                                        <input disabled type="text" class="span11"
+                                               value="@Model.fullname" placeholder="Text..." />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Phone :</label>
+                                    <div class="controls">
+                                        <input disabled type="text" class="span11"
+                                               value="@Model.phone" placeholder="Text..." />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Email : </label>
+                                    <div class="controls">
+                                        <input disabled type="text" class="span11"
+                                               value="@Model.email" placeholder="Text..." />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Address :</label>
+                                    <div class="controls">
+                                        <input disabled type="text" class="span11"
+                                               value="@Model.address" placeholder="Text..." />
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="widget-title">
+                            <span class="icon">
+                                <i class="icon-align-justify"></i>
+                            </span>
+                            <h5>Address Book</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            @foreach (var item in Model.listAddressBook)
+                            {
+                                <div class="form-horizontal">
+                                    <div class="control-group">
+                                        <label class="control-label">Address:</label>
+                                        <div class="controls">
+                                            <textarea disabled type="text" class="span11">@item</textarea>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="span6">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon">
+                                <i class="icon-align-justify"></i>
+                            </span>
+                            <h5>Avatar</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <img class="img-fluid" src="~/@Model.avatar" alt=""
+                                 style="margin-top: 5%; margin-bottom: 5%; margin-left: 5%;">
+                        </div>
+                        <div class="widget-title">
+                            <span class="icon">
+                                <i class="icon-align-justify"></i>
+                            </span>
+                            <h5>Form Elements</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <div class="form-horizontal">
+
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <p>Current status: <b>@Model.status</b>
+                                        <p>
+                                            Choose status:
+                                            <select name="selectStatus">
+                                                @if (Model.status == "ACTIVE")
+                                                {
+                                                    <option selected>ACTIVE</option>
+                                                    <option>DEACTIVE</option>
+                                                }
+                                                @if (Model.status == "DEACTIVE")
+                                                {
+                                                    <option>ACTIVE</option>
+                                                    <option selected>DEACTIVE</option>
+                                                }
+                                            </select>
+                                            <hr>
+                                            <div class="container">
+                                                <!-- Button to Open the Modal -->
+                                                <button type="button" class="btn btn-success" id="#myBtn"
+                                                        data-toggle="modal" data-target="#myModalSave">
+                                                    Save Changes
+                                                </button>
+
+                                                <!-- The Modal -->
+                                                <div class="modal" id="myModalSave" style="display: none;">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+
+                                                            <!-- Modal Header -->
+                                                            <div class="modal-header">
+                                                                <h4 class="modal-title">Confirm</h4>
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                            </div>
+
+                                                            <!-- Modal body -->
+                                                            <div class="modal-body">
+                                                                Are you sure to save
+                                                                changes?
+                                                            </div>
+
+                                                            <!-- Modal footer -->
+                                                            <div class="modal-footer">
+                                                                <button type="submit" class="btn btn-danger">Save</button>
+                                                                <button type="button" class="btn btn-danger"
+                                                                        data-dismiss="modal">
+                                                                    Close
+                                                                </button>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form>
+<script src="~/Scripts/Admin/jquery.min.js"></script>
+<script src="~/Scripts/Admin/jquery.ui.custom.js"></script>
+<script src="~/Scripts/Admin/bootstrap.min.js"></script>
+<script src="~/Scripts/Admin/bootstrap-colorpicker.js"></script>
+<script src="~/Scripts/Admin/bootstrap-datepicker.js"></script>
+<script src="~/Scripts/Admin/jquery.toggle.buttons.js"></script>
+<script src="~/Scripts/Admin/masked.js"></script>
+<script src="~/Scripts/Admin/jquery.uniform.js"></script>
+<script src="~/Scripts/Admin/select2.min.js"></script>
+<script src="~/Scripts/Admin/matrix.js"></script>
+<script src="~/Scripts/Admin/matrix.form_common.js"></script>
+<script src="~/Scripts/Admin/wysihtml5-0.3.0.js"></script>
+<script src="~/Scripts/Admin/jquery.peity.min.js"></script>
+<script src="~/Scripts/Admin/bootstrap-wysihtml5.js"></script>
+<script>
+    $("#accountMenu").attr('class', 'active');
+</script>

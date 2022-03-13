@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+<title>Admin</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="css/uniform.css" />
+<link rel="stylesheet" href="css/select2.css" />
+<link rel="stylesheet" href="css/matrix-style.css" />
+<link rel="stylesheet" href="css/matrix-media.css" />
+<link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link
+	href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800'
+	rel='stylesheet' type='text/css'>
+<style>
+.checked {
+	color: orange;
+}
+</style>
+</head>
+<body>
+
+	<!--Header-part-->
+	<div id="header">
+		<h1>
+			<a href="dashboard.html">Admin</a>
+		</h1>
+	</div>
+	<!--close-Header-part-->
+
+	<!--top-Header-menu-->
+	<th:block th:include="admin/_top"></th:block>
+
+
+	<!--sidebar-menu-->
+
+	<th:block th:include="admin/_left"></th:block>
+
+	<div id="content">
+		<div id="content-header">
+			<div id="breadcrumb">
+				<a href="#" title="Go to Home" class="tip-bottom"><i
+					class="icon-home"></i> Home</a> <a href="#" class="current">comment</a>
+			</div>
+			<h1>Comment Manager</h1>
+		</div>
+		<div class="container-fluid">
+			<hr>
+			<p style="color: green" id="message"></p>
+			<select class="form-control" id="changeListCmt" name="changeListCmt"
+				onchange="setListCmt()">
+				<option selected>ACTIVE</option>
+				<option>DEACTIVE</option>
+			</select>
+			<div id="activeCmt" class="row-fluid">
+				<div class="span12">
+					<div class="widget-box">
+						<div class="widget-title">
+							<span class="icon"><i class="icon-th"></i></span>
+							<h5>List of comment by customer</h5>
+
+						</div>
+						<div class="widget-content nopadding">
+							<table class="table table-bordered data-table">
+								<thead>
+									<tr>
+										<th>STT</th>
+										<th>ID Comment</th>
+										<th>Customer</th>
+										<th>Name Product</th>
+										<th>Content</th>
+										<th>Date time</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="gradeA" th:each=" item:${pets.listCmtFromDB()}"
+										th:if="${item.status=='ACTIVE'}">
+										<td></td>
+										<td th:text="${item.id}"></td>
+										<td th:text="${acc.getFullName(item.account.username)}"></td>
+										<td th:text="${pets.getPets(item.product.id).name}"
+											class="center"></td>
+										<td th:text="${item.text}" class="center"></td>
+										<td th:text="${#dates.format(item.date, 'dd-MM-yyyy HH:mm')}"></td>
+										<td class="text-align-center"><div
+												style="position: relative;">
+												<select class="form-control"
+													th:id="'changeStatusCmt'+${item.id}" th:name="${item.id}"
+													onchange="changeStatusCmt(name)">
+													<option selected>ACTIVE</option>
+													<option>DEACTIVE</option>
+												</select>
+												<button th:id="'buttonSaveStatusCmt'+${item.id}"
+													type="button" th:name="${item.id}"
+													th:value="${item.status}" class="btn btn-info"
+													onclick="saveStatusCmt(name, value)" style="display: none;">Save</button>
+												<i th:id="'checkSaveStatusCmt'+${item.id}"
+													class="fa fa-check-circle"
+													style="font-size: 20px; color: green; display: none;"></i>
+											</div></td>
+									</tr>
+									<tr class="gradeA"
+										th:each="item2:${pets.listRepCmtFromDB()}"
+										th:if="${item2.status=='ACTIVE'}">
+										<td></td>
+										<td th:text="${item2.id}"></td>
+										<td th:text="${acc.getFullName(item2.account.username)}"></td>
+										<td th:text="${pets.getNameProductByRepCmt(item2.id)}"
+											class="center"></td>
+										<td th:text="${item2.text}" class="center"></td>
+										<td th:text="${#dates.format(item2.date, 'dd-MM-yyyy HH:mm')}"></td>
+										<td class="text-align-center"><div
+												style="position: relative;">
+												<select class="form-control"
+													th:id="'changeStatusCmt'+${item2.id}" th:name="${item2.id}"
+													onchange="changeStatusCmt(name)">
+													<option SELECTED>ACTIVE</option>
+													<option>DEACTIVE</option>
+												</select>
+												<button th:id="'buttonSaveStatusCmt'+${item2.id}"
+													type="button" th:name="${item2.id}"
+													th:value="${item2.status}" class="btn btn-info"
+													onclick="saveStatusRepCmt(name, value)"
+													style="display: none;">Save</button>
+												<i th:id="'checkSaveStatusCmt'+${item2.id}"
+													class="fa fa-check-circle"
+													style="font-size: 20px; color: green; display: none;"></i>
+											</div></td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="deactiveCmt" class="row-fluid">
+				<div class="span12">
+					<div class="widget-box">
+						<div class="widget-title">
+							<span class="icon"><i class="icon-th"></i></span>
+							<h5>List of comment by customer</h5>
+
+						</div>
+						<div class="widget-content nopadding">
+							<table class="table table-bordered data-table">
+								<thead>
+									<tr>
+										<th>STT</th>
+										<th>ID Comment</th>
+										<th>Customer</th>
+										<th>Name Product</th>
+										<th>Content</th>
+										<th>Date time</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="gradeA" th:each=" item:${pets.listCmtFromDB()}"
+										th:if="${item.status=='DEACTIVE'}">
+										<td></td>
+										<td th:text="${item.id}"></td>
+										<td th:text="${acc.getFullName(item.account.username)}"></td>
+										<td th:text="${pets.getPets(item.product.id).name}"
+											class="center"></td>
+										<td th:text="${item.text}" class="center"></td>
+										<td th:text="${#dates.format(item.date, 'dd-MM-yyyy HH:mm')}"></td>
+										<td class="text-align-center"><div
+												style="position: relative;">
+												<select class="form-control"
+													th:id="'changeStatusCmt'+${item.id}" th:name="${item.id}"
+													onchange="changeStatusCmt(name)">
+													<option >ACTIVE</option>
+													<option selected>DEACTIVE</option>
+												</select>
+												<button th:id="'buttonSaveStatusCmt'+${item.id}"
+													type="button" th:name="${item.id}"
+													th:value="${item.status}" class="btn btn-info"
+													onclick="saveStatusCmt(name, value)" style="display: none;">Save</button>
+												<i th:id="'checkSaveStatusCmt'+${item.id}"
+													class="fa fa-check-circle"
+													style="font-size: 20px; color: green; display: none;"></i>
+											</div></td>
+									</tr>
+									<tr class="gradeA"
+										th:each="item2:${pets.listRepCmtFromDB()}"
+										th:if="${item2.status=='DEACTIVE'}">
+										<td></td>
+										<td th:text="${item2.id}"></td>
+										<td th:text="${acc.getFullName(item2.account.username)}"></td>
+										<td th:text="${pets.getNameProductByRepCmt(item2.id)}"
+											class="center"></td>
+										<td th:text="${item2.text}" class="center"></td>
+										<td th:text="${#dates.format(item2.date, 'dd-MM-yyyy HH:mm')}"></td>
+										<td class="text-align-center"><div
+												style="position: relative;">
+												<select class="form-control"
+													th:id="'changeStatusCmt'+${item2.id}" th:name="${item2.id}"
+													onchange="changeStatusCmt(name)">
+													<option>ACTIVE</option>
+													<option selected>DEACTIVE</option>
+												</select>
+												<button th:id="'buttonSaveStatusCmt'+${item2.id}"
+													type="button" th:name="${item2.id}"
+													th:value="${item2.status}" class="btn btn-info"
+													onclick="saveStatusRepCmt(name, value)"
+													style="display: none;">Save</button>
+												<i th:id="'checkSaveStatusCmt'+${item2.id}"
+													class="fa fa-check-circle"
+													style="font-size: 20px; color: green; display: none;"></i>
+											</div></td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<!--Footer-part-->
+	<script type="text/javascript">
+	$("#deactiveCmt").hide();
+	</script>
+	<th:block th:include="admin/_bottom"></th:block>
+	<!--end-Footer-part-->
+	<script src="js/event.js"></script>
+	<script src="js/hideElementBillPage.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.ui.custom.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.uniform.js"></script>
+	<script src="js/select2.min.js"></script>
+	<script src="js/jquery.dataTables.min.js"></script>
+	<script src="js/matrix.js"></script>
+	<script src="js/matrix.tables.js"></script>
+</body>
+</html>

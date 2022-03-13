@@ -1,0 +1,140 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Layout/Contact.cshtml";
+}
+<div class="bg_img map_banner">
+    <div class="logo"><h2>Contact Us</h2></div>
+</div>
+<script>
+    var content = `<select class="custom-select" id="custom-select" onchange="randerMap()">
+                        <option selected disabled >Choose address</option>`
+
+    var html = ``
+    var address = [{ id: 1, address: "6 Linh Trung, Thủ Đức, Hồ Chí Minh", value: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.3284143475826!2d106.76102135090092!3d10.862606592225088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752784c7e43b99%3A0x3c33cf8843f1f322!2zNiBMaW5oIFRydW5nLCBQaMaw4budbmcgTGluaCBUcnVuZywgVGjhu6cgxJDhu6ljLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1639299166109!5m2!1svi!2s" },
+    { id: 2, address: "Tô Vĩnh Diện, Đường Đ. Mạc Đĩnh Chi, Đông Hoà, Dĩ An, Bình Dương", value: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.0526366536437!2d106.779320050901!3d10.883601192210794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d89aad780e49%3A0x54542761d4c22175!2zS8O9IHTDumMgeMOhIEtodSBCIMSQ4bqhaSBo4buNYyBRdeG7kWMgZ2lhIFRQLkhDTQ!5e0!3m2!1svi!2s!4v1639377848549!5m2!1svi!2s" },
+    { id: 3, address: "37 Lê Thánh Tông, Buôn Ma Thuột, Đăk Lăk", value: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.456855509811!2d108.04500705091505!3d12.683577091001384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31721d7e179dfc21%3A0x6ba8fd716d377ce8!2zMzcgTMOqIFRow6FuaCBUw7RuZywgVGjhuq9uZyBM4bujaSwgVGjDoG5oIHBo4buRIEJ1w7RuIE1hIFRodeG7mXQsIMSQ4bqvayBM4bqvaywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1639377213024!5m2!1svi!2s" }]
+    function randerMap() {
+        var x = document.getElementById("custom-select").value;
+        document.getElementById("map_load").innerHTML = '<iframe src="' + x + '" style="border:0;" allowfullscreen="" loading="lazy"></iframe>';
+    }
+    address.map(function (item, index) {
+        html += `<option value="${item.value}" >${item.address}</option>`
+    })
+    var text = "DSdsdsdsds";
+    window.onload = function () {
+        document.getElementById("seclect_address").innerHTML = content + html + `</select>`
+    }
+</script>
+<div class="contact_content" onload="loadContentSelect()">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 form_contact">
+                <div class="title">
+                    <h2>Need support?</h2>
+                    <p>Contact us if you need further assistance</p>
+                </div>
+                <form id="contact-form" method="post" action="" role="form">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_name">Firstname</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_lastname">Lastname</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_phone">Phone</label>
+                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_message">Message</label>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required data-error="Please,leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-send" value="Send message">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="col-md-6 map">
+                <div class="seclect_address" id="seclect_address"></div>
+                <div class="map_load" id="map_load">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.3284143475826!2d106.76102135090092!3d10.862606592225088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752784c7e43b99%3A0x3c33cf8843f1f322!2zNiBMaW5oIFRydW5nLCBQaMaw4budbmcgTGluaCBUcnVuZywgVGjhu6cgxJDhu6ljLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1639374262646!5m2!1svi!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+
+<script>
+    $(function () {
+        $("#contact-form").validator();
+
+        // when the form is submitted
+        $("#contact-form").on("submit", function (e) {
+            // if the validator does not prevent form submit
+            if (!e.isDefaultPrevented()) {
+                var url = "contact.php";
+
+
+                var messageAlert = "alert-success";
+                var messageText =
+                    "Your message was sent, thank you. I will get back to you soon.";
+
+                var alertBox =
+                    '<div class="alert ' +
+                    messageAlert +
+                    ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>' +
+                    messageText +
+                    "</div>";
+
+                // If we have messageAlert and messageText
+                if (messageAlert && messageText) {
+                    // inject the alert to .messages div in our form
+                    $("#contact-form").find(".messages").html(alertBox);
+                    // empty the form
+                    $("#contact-form")[0].reset();
+                }
+
+                return false;
+            }
+        });
+    });
+
+</script>

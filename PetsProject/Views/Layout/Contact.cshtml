@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="CodePixar">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Mulish:300,400,500,600,700,800,900" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/Content/linearicons.css">
+    <link rel="stylesheet" href="~/Content/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/Content/owl.carousel.css">
+    <link rel="stylesheet" href="~/Content/nice-select.css">
+    <link rel="stylesheet" href="~/Content/nouislider.min.css">
+    <link rel="stylesheet" href="~/Content/ion.rangeSlider.css" />
+    <link rel="stylesheet" href="~/Content/ion.rangeSlider.skinFlat.css" />
+    <link rel="stylesheet" href="~/Content/magnific-popup.css">
+    <link rel="stylesheet" href="~/Content/main.css">
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+</head>
+<body>
+    <!-- Start Header Area -->
+    @Html.Action("MenuPartial", "Home")
+    <!-- End Header Area -->
+    <!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+
+        </div>
+    </section>
+    <!-- End banner Area -->
+    @RenderBody()
+    <div class="btn_BTT">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-chevron-double-up"></i></button>
+    </div>
+
+    <!-- start footer Area -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo_footer">
+                        <a href="@Url.Action("Index", "Home")">
+                            <img src="~/img/icon/logo.png" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h2>Menu</h2>
+                    <ul>
+                        <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                        <li><a href="@Url.Action("SanPham", "SanPham")">Product</a></li>
+                        <li><a href="@Url.Action("About", "Home")">About</a></li>
+                        <li><a href="@Url.Action("Contact", "Home")">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li><a href="@Url.Action("Contact", "Home")">principal office: Hamlet 6, Linh Trung Ward, Thu Duc District, Ho Chi Minh City,</a></li>
+                        <li><a href="#">phone: 1800 1211</a></li>
+                        <li><a href="#">email: gallmount1899@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>connect to us</h2>
+                    <p class="social">
+                        <a href="https://www.facebook.com/nguyenson.nguyen.12576"><i class="fa fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa fa-google-plus-square"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                    </p>
+                </div>
+                <hr>
+                <div class="col-md-12 text-center">
+                    <p>Group 9 .NET. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer Area -->
+    @*<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>*@
+    <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="~/Scripts/jquery.ajaxchimp.min.js"></script>
+    <script src="~/Scripts/jquery.nice-select.min.js"></script>
+    <script src="~/Scripts/jquery.sticky.js"></script>
+    <script src="~/Scripts/nouislider.min.js"></script>
+    <script src="~/Scripts/jquery.magnific-popup.min.js"></script>
+    <script src="~/Scripts/owl.carousel.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Mulish:300,400,500,600,700,800,900" rel="stylesheet" type="text/css" media="all">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/jquery.waypoints.min.js" integrity="sha512-f/gxy4xAjuGEIf/ujexcNI906CTS+kfw40QCyG/rEMKELvCIFaTOY+dfdn7M/eNsiMreG3SStjgFr9q8Me9Baw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script>
+        $("#contactMenu").attr('class', 'nav-item active');
+    </script>
+    <script src="~/Scripts/gmaps.min.js"></script>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="~/Scripts/scrollfade-0.1.js"></script>
+    <script src="~/Scripts/main.js"></script>
+</body>
+</html>

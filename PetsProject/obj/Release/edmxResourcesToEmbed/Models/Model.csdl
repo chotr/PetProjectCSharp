@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjectWebBanThuCungModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C_TransactionIndex_237b54d1_d71b_4693_9336_2c1897920f9b">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+  </EntityType>
+  <EntityType Name="account">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="fullname" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="address" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="avatar" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="birthday" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="address_Book" Relationship="Self.FK__address_B__usern__6DCC4D03" FromRole="accounts" ToRole="address_Book" />
+    <NavigationProperty Name="address_Book1" Relationship="Self.FK__address_B__usern__6EC0713C" FromRole="accounts" ToRole="address_Book" />
+    <NavigationProperty Name="APP_USER" Relationship="Self.FK__APP_USER__USER_N__6FB49575" FromRole="accounts" ToRole="APP_USER" />
+    <NavigationProperty Name="APP_USER1" Relationship="Self.FK__APP_USER__USER_N__70A8B9AE" FromRole="accounts" ToRole="APP_USER" />
+  </EntityType>
+  <EntityType Name="address_Book">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="address" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="account" Relationship="Self.FK__address_B__usern__6DCC4D03" FromRole="address_Book" ToRole="accounts" />
+    <NavigationProperty Name="account1" Relationship="Self.FK__address_B__usern__6EC0713C" FromRole="address_Book" ToRole="accounts" />
+  </EntityType>
+  <EntityType Name="APP_ROLE">
+    <Key>
+      <PropertyRef Name="ROLE_ID" />
+    </Key>
+    <Property Name="ROLE_ID" Type="Int64" Nullable="false" />
+    <Property Name="ROLE_NAME" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="USER_ROLE" Relationship="Self.FK__USER_ROLE__ROLE___72910220" FromRole="APP_ROLE" ToRole="USER_ROLE" />
+    <NavigationProperty Name="USER_ROLE1" Relationship="Self.FK__USER_ROLE__ROLE___73852659" FromRole="APP_ROLE" ToRole="USER_ROLE" />
+    <NavigationProperty Name="USER_ROLE2" Relationship="Self.USER_ROLE_FK2" FromRole="APP_ROLE" ToRole="USER_ROLE" />
+  </EntityType>
+  <EntityType Name="APP_USER">
+    <Key>
+      <PropertyRef Name="USER_ID" />
+    </Key>
+    <Property Name="USER_ID" Type="Int64" Nullable="false" />
+    <Property Name="USER_NAME" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ENCRYTED_PASSWORD" Type="String" MaxLength="128" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ENABLED" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="account" Relationship="Self.FK__APP_USER__USER_N__6FB49575" FromRole="APP_USER" ToRole="accounts" />
+    <NavigationProperty Name="account1" Relationship="Self.FK__APP_USER__USER_N__70A8B9AE" FromRole="APP_USER" ToRole="accounts" />
+    <NavigationProperty Name="USER_ROLE" Relationship="Self.FK__USER_ROLE__USER___74794A92" FromRole="APP_USER" ToRole="USER_ROLE" />
+    <NavigationProperty Name="USER_ROLE1" Relationship="Self.FK__USER_ROLE__USER___756D6ECB" FromRole="APP_USER" ToRole="USER_ROLE" />
+    <NavigationProperty Name="USER_ROLE2" Relationship="Self.USER_ROLE_FK1" FromRole="APP_USER" ToRole="USER_ROLE" />
+  </EntityType>
+  <EntityType Name="bill">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="idaddress" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="payment" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="totalcost" Type="Int32" />
+    <Property Name="time" Type="DateTime" Precision="3" />
+    <Property Name="note" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="bill_Details">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="idbill" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="idproduct" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="Int32" />
+    <Property Name="quantity" Type="Int32" />
+    <Property Name="totalcost" Type="Int32" />
+  </EntityType>
+  <EntityType Name="cart">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="idproduct" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="price" Type="Double" Nullable="false" />
+    <Property Name="quantity" Type="Int32" Nullable="false" />
+    <Property Name="totalcost" Type="Double" Nullable="false" />
+    <NavigationProperty Name="pet" Relationship="Self.FK_cart_pet" FromRole="carts" ToRole="pet" />
+  </EntityType>
+  <EntityType Name="comment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="idproduct" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="text" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="date" Type="DateTime" Precision="3" />
+    <Property Name="status" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Persistent_Logins">
+    <Key>
+      <PropertyRef Name="series" />
+    </Key>
+    <Property Name="username" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="series" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="token" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="last_used" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="pet">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="weight" Type="Double" />
+    <Property Name="type" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="color" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="origin" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="Double" />
+    <Property Name="imageslink" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="pricebefore" Type="Double" />
+    <Property Name="checkquality" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="rate" Type="Int32" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="carts" Relationship="Self.FK_cart_pet" FromRole="pet" ToRole="carts" />
+  </EntityType>
+  <EntityType Name="replycomment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="idcomment" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="text" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="date" Type="DateTime" Precision="3" />
+    <Property Name="status" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="review">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="idproduct" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="comment" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="rate" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USER_ROLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="USER_ID" Type="Int64" Nullable="false" />
+    <Property Name="ROLE_ID" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="APP_ROLE" Relationship="Self.FK__USER_ROLE__ROLE___72910220" FromRole="USER_ROLE" ToRole="APP_ROLE" />
+    <NavigationProperty Name="APP_ROLE1" Relationship="Self.FK__USER_ROLE__ROLE___73852659" FromRole="USER_ROLE" ToRole="APP_ROLE" />
+    <NavigationProperty Name="APP_ROLE2" Relationship="Self.USER_ROLE_FK2" FromRole="USER_ROLE" ToRole="APP_ROLE" />
+    <NavigationProperty Name="APP_USER" Relationship="Self.FK__USER_ROLE__USER___74794A92" FromRole="USER_ROLE" ToRole="APP_USER" />
+    <NavigationProperty Name="APP_USER1" Relationship="Self.FK__USER_ROLE__USER___756D6ECB" FromRole="USER_ROLE" ToRole="APP_USER" />
+    <NavigationProperty Name="APP_USER2" Relationship="Self.USER_ROLE_FK1" FromRole="USER_ROLE" ToRole="APP_USER" />
+  </EntityType>
+  <EntityType Name="viewHistory">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="idproduct" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="datemodify" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="findAssociation">
+    <Key>
+      <PropertyRef Name="TID" />
+      <PropertyRef Name="idCus" />
+      <PropertyRef Name="trans" />
+    </Key>
+    <Property Name="TID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="idCus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="trans" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="option">
+    <Key>
+      <PropertyRef Name="minsup" />
+      <PropertyRef Name="minconf" />
+    </Key>
+    <Property Name="minsup" Type="Double" Nullable="false" />
+    <Property Name="minconf" Type="Double" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__address_B__usern__6DCC4D03">
+    <End Role="accounts" Type="Self.account" Multiplicity="0..1" />
+    <End Role="address_Book" Type="Self.address_Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accounts">
+        <PropertyRef Name="username" />
+      </Principal>
+      <Dependent Role="address_Book">
+        <PropertyRef Name="username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__address_B__usern__6EC0713C">
+    <End Role="accounts" Type="Self.account" Multiplicity="0..1" />
+    <End Role="address_Book" Type="Self.address_Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accounts">
+        <PropertyRef Name="username" />
+      </Principal>
+      <Dependent Role="address_Book">
+        <PropertyRef Name="username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__APP_USER__USER_N__6FB49575">
+    <End Role="accounts" Type="Self.account" Multiplicity="0..1" />
+    <End Role="APP_USER" Type="Self.APP_USER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accounts">
+        <PropertyRef Name="username" />
+      </Principal>
+      <Dependent Role="APP_USER">
+        <PropertyRef Name="USER_NAME" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__APP_USER__USER_N__70A8B9AE">
+    <End Role="accounts" Type="Self.account" Multiplicity="0..1" />
+    <End Role="APP_USER" Type="Self.APP_USER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accounts">
+        <PropertyRef Name="username" />
+      </Principal>
+      <Dependent Role="APP_USER">
+        <PropertyRef Name="USER_NAME" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USER_ROLE__ROLE___72910220">
+    <End Role="APP_ROLE" Type="Self.APP_ROLE" Multiplicity="1" />
+    <End Role="USER_ROLE" Type="Self.USER_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="APP_ROLE">
+        <PropertyRef Name="ROLE_ID" />
+      </Principal>
+      <Dependent Role="USER_ROLE">
+        <PropertyRef Name="ROLE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USER_ROLE__ROLE___73852659">
+    <End Role="APP_ROLE" Type="Self.APP_ROLE" Multiplicity="1" />
+    <End Role="USER_ROLE" Type="Self.USER_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="APP_ROLE">
+        <PropertyRef Name="ROLE_ID" />
+      </Principal>
+      <Dependent Role="USER_ROLE">
+        <PropertyRef Name="ROLE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="USER_ROLE_FK2">
+    <End Role="APP_ROLE" Type="Self.APP_ROLE" Multiplicity="1" />
+    <End Role="USER_ROLE" Type="Self.USER_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="APP_ROLE">
+        <PropertyRef Name="ROLE_ID" />
+      </Principal>
+      <Dependent Role="USER_ROLE">
+        <PropertyRef Name="ROLE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USER_ROLE__USER___74794A92">
+    <End Role="APP_USER" Type="Self.APP_USER" Multiplicity="1" />
+    <End Role="USER_ROLE" Type="Self.USER_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="APP_USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="USER_ROLE">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USER_ROLE__USER___756D6ECB">
+    <End Role="APP_USER" Type="Self.APP_USER" Multiplicity="1" />
+    <End Role="USER_ROLE" Type="Self.USER_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="APP_USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="USER_ROLE">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="USER_ROLE_FK1">
+    <End Role="APP_USER" Type="Self.APP_USER" Multiplicity="1" />
+    <End Role="USER_ROLE" Type="Self.USER_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="APP_USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="USER_ROLE">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_cart_pet">
+    <End Role="pet" Type="Self.pet" Multiplicity="1" />
+    <End Role="carts" Type="Self.cart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pet">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="carts">
+        <PropertyRef Name="idproduct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProjectWebBanThuCungEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C_TransactionIndex_237b54d1_d71b_4693_9336_2c1897920f9b" EntityType="Self.C_TransactionIndex_237b54d1_d71b_4693_9336_2c1897920f9b" />
+    <EntitySet Name="accounts" EntityType="Self.account" />
+    <EntitySet Name="address_Book" EntityType="Self.address_Book" />
+    <EntitySet Name="APP_ROLE" EntityType="Self.APP_ROLE" />
+    <EntitySet Name="APP_USER" EntityType="Self.APP_USER" />
+    <EntitySet Name="bills" EntityType="Self.bill" />
+    <EntitySet Name="bill_Details" EntityType="Self.bill_Details" />
+    <EntitySet Name="carts" EntityType="Self.cart" />
+    <EntitySet Name="comments" EntityType="Self.comment" />
+    <EntitySet Name="Persistent_Logins" EntityType="Self.Persistent_Logins" />
+    <EntitySet Name="pets" EntityType="Self.pet" />
+    <EntitySet Name="replycomments" EntityType="Self.replycomment" />
+    <EntitySet Name="reviews" EntityType="Self.review" />
+    <EntitySet Name="USER_ROLE" EntityType="Self.USER_ROLE" />
+    <EntitySet Name="viewHistories" EntityType="Self.viewHistory" />
+    <EntitySet Name="findAssociations" EntityType="Self.findAssociation" />
+    <EntitySet Name="options" EntityType="Self.option" />
+    <AssociationSet Name="FK__address_B__usern__6DCC4D03" Association="Self.FK__address_B__usern__6DCC4D03">
+      <End Role="accounts" EntitySet="accounts" />
+      <End Role="address_Book" EntitySet="address_Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK__address_B__usern__6EC0713C" Association="Self.FK__address_B__usern__6EC0713C">
+      <End Role="accounts" EntitySet="accounts" />
+      <End Role="address_Book" EntitySet="address_Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK__APP_USER__USER_N__6FB49575" Association="Self.FK__APP_USER__USER_N__6FB49575">
+      <End Role="accounts" EntitySet="accounts" />
+      <End Role="APP_USER" EntitySet="APP_USER" />
+    </AssociationSet>
+    <AssociationSet Name="FK__APP_USER__USER_N__70A8B9AE" Association="Self.FK__APP_USER__USER_N__70A8B9AE">
+      <End Role="accounts" EntitySet="accounts" />
+      <End Role="APP_USER" EntitySet="APP_USER" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USER_ROLE__ROLE___72910220" Association="Self.FK__USER_ROLE__ROLE___72910220">
+      <End Role="APP_ROLE" EntitySet="APP_ROLE" />
+      <End Role="USER_ROLE" EntitySet="USER_ROLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USER_ROLE__ROLE___73852659" Association="Self.FK__USER_ROLE__ROLE___73852659">
+      <End Role="APP_ROLE" EntitySet="APP_ROLE" />
+      <End Role="USER_ROLE" EntitySet="USER_ROLE" />
+    </AssociationSet>
+    <AssociationSet Name="USER_ROLE_FK2" Association="Self.USER_ROLE_FK2">
+      <End Role="APP_ROLE" EntitySet="APP_ROLE" />
+      <End Role="USER_ROLE" EntitySet="USER_ROLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USER_ROLE__USER___74794A92" Association="Self.FK__USER_ROLE__USER___74794A92">
+      <End Role="APP_USER" EntitySet="APP_USER" />
+      <End Role="USER_ROLE" EntitySet="USER_ROLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USER_ROLE__USER___756D6ECB" Association="Self.FK__USER_ROLE__USER___756D6ECB">
+      <End Role="APP_USER" EntitySet="APP_USER" />
+      <End Role="USER_ROLE" EntitySet="USER_ROLE" />
+    </AssociationSet>
+    <AssociationSet Name="USER_ROLE_FK1" Association="Self.USER_ROLE_FK1">
+      <End Role="APP_USER" EntitySet="APP_USER" />
+      <End Role="USER_ROLE" EntitySet="USER_ROLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_cart_pet" Association="Self.FK_cart_pet">
+      <End Role="pet" EntitySet="pets" />
+      <End Role="carts" EntitySet="carts" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

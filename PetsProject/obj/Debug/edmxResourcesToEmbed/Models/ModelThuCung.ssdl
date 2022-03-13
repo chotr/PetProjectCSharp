@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjectWebBanThuCungModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="_TransactionIndex_237b54d1-d71b-4693-9336-2c1897920f9b">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <EntityType Name="accounts">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="fullname" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="phone" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="address" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="avatar" Type="nvarchar" MaxLength="300" />
+    <Property Name="birthday" Type="date" />
+  </EntityType>
+  <EntityType Name="address_Book">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="20" />
+    <Property Name="address" Type="nvarchar" MaxLength="400" />
+    <Property Name="status" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="APP_ROLE">
+    <Key>
+      <PropertyRef Name="ROLE_ID" />
+    </Key>
+    <Property Name="ROLE_ID" Type="bigint" Nullable="false" />
+    <Property Name="ROLE_NAME" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="APP_USER">
+    <Key>
+      <PropertyRef Name="USER_ID" />
+    </Key>
+    <Property Name="USER_ID" Type="bigint" Nullable="false" />
+    <Property Name="USER_NAME" Type="nvarchar" MaxLength="20" />
+    <Property Name="ENCRYTED_PASSWORD" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="ENABLED" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="bill">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="30" />
+    <Property Name="idaddress" Type="nvarchar" MaxLength="30" />
+    <Property Name="payment" Type="nvarchar" MaxLength="30" />
+    <Property Name="totalcost" Type="int" />
+    <Property Name="time" Type="datetime" />
+    <Property Name="note" Type="nvarchar" MaxLength="400" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="bill_Details">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="idbill" Type="nvarchar" MaxLength="30" />
+    <Property Name="idproduct" Type="nvarchar" MaxLength="30" />
+    <Property Name="price" Type="int" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="totalcost" Type="int" />
+  </EntityType>
+  <EntityType Name="carts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="idproduct" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="price" Type="float" Nullable="false" />
+    <Property Name="quantity" Type="int" Nullable="false" />
+    <Property Name="totalcost" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="comment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="idproduct" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="text" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="status" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ProjectWebBanThuCung.dbo.findAssociations' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="findAssociations">
+    <Key>
+      <PropertyRef Name="TID" />
+      <PropertyRef Name="idCus" />
+      <PropertyRef Name="trans" />
+    </Key>
+    <Property Name="TID" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="idCus" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="trans" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ProjectWebBanThuCung.dbo.options' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="options">
+    <Key>
+      <PropertyRef Name="minsup" />
+      <PropertyRef Name="minconf" />
+    </Key>
+    <Property Name="minsup" Type="float" Nullable="false" />
+    <Property Name="minconf" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Persistent_Logins">
+    <Key>
+      <PropertyRef Name="series" />
+    </Key>
+    <Property Name="username" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="series" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="token" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="last_used" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="replycomment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="idcomment" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="text" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="status" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="review">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="idproduct" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="comment" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="rate" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="pets">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="100" />
+    <Property Name="size" Type="nvarchar" MaxLength="400" />
+    <Property Name="material" Type="nvarchar" MaxLength="20" />
+    <Property Name="color" Type="nvarchar" MaxLength="20" />
+    <Property Name="brand" Type="nvarchar" MaxLength="20" />
+    <Property Name="price" Type="float" />
+    <Property Name="date" Type="date" />
+    <Property Name="manufactory" Type="nvarchar" MaxLength="20" />
+    <Property Name="imageslink" Type="nvarchar" MaxLength="30" />
+    <Property Name="pricebefore" Type="float" />
+    <Property Name="category" Type="nvarchar" MaxLength="30" />
+    <Property Name="width" Type="nvarchar" MaxLength="400" />
+    <Property Name="height" Type="nvarchar" MaxLength="400" />
+    <Property Name="weight" Type="nvarchar" MaxLength="400" />
+    <Property Name="depth" Type="nvarchar" MaxLength="400" />
+    <Property Name="checkquality" Type="nchar" MaxLength="10" />
+    <Property Name="description" Type="nvarchar" MaxLength="1000" />
+    <Property Name="rate" Type="int" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="USER_ROLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" Nullable="false" />
+    <Property Name="USER_ID" Type="bigint" Nullable="false" />
+    <Property Name="ROLE_ID" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="viewHistory">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="100" />
+    <Property Name="idproduct" Type="nvarchar" MaxLength="30" />
+    <Property Name="datemodify" Type="datetime" />
+  </EntityType>
+  <Association Name="FK__address_B__usern__5441852A">
+    <End Role="accounts" Type="Self.accounts" Multiplicity="0..1" />
+    <End Role="address_Book" Type="Self.address_Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accounts">
+        <PropertyRef Name="username" />
+      </Principal>
+      <Dependent Role="address_Book">
+        <PropertyRef Name="username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__APP_USER__USER_N__5535A963">
+    <End Role="accounts" Type="Self.accounts" Multiplicity="0..1" />
+    <End Role="APP_USER" Type="Self.APP_USER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accounts">
+        <PropertyRef Name="username" />
+      </Principal>
+      <Dependent Role="APP_USER">
+        <PropertyRef Name="USER_NAME" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USER_ROLE__ROLE___571DF1D5">
+    <End Role="APP_ROLE" Type="Self.APP_ROLE" Multiplicity="1" />
+    <End Role="USER_ROLE" Type="Self.USER_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="APP_ROLE">
+        <PropertyRef Name="ROLE_ID" />
+      </Principal>
+      <Dependent Role="USER_ROLE">
+        <PropertyRef Name="ROLE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USER_ROLE__USER___5629CD9C">
+    <End Role="APP_USER" Type="Self.APP_USER" Multiplicity="1" />
+    <End Role="USER_ROLE" Type="Self.USER_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="APP_USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="USER_ROLE">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="USER_ROLE_FK1">
+    <End Role="APP_USER" Type="Self.APP_USER" Multiplicity="1" />
+    <End Role="USER_ROLE" Type="Self.USER_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="APP_USER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="USER_ROLE">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="USER_ROLE_FK2">
+    <End Role="APP_ROLE" Type="Self.APP_ROLE" Multiplicity="1" />
+    <End Role="USER_ROLE" Type="Self.USER_ROLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="APP_ROLE">
+        <PropertyRef Name="ROLE_ID" />
+      </Principal>
+      <Dependent Role="USER_ROLE">
+        <PropertyRef Name="ROLE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProjectWebBanThuCungModelStoreContainer">
+    <EntitySet Name="_TransactionIndex_237b54d1-d71b-4693-9336-2c1897920f9b" EntityType="Self._TransactionIndex_237b54d1-d71b-4693-9336-2c1897920f9b" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="accounts" EntityType="Self.accounts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="address_Book" EntityType="Self.address_Book" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="APP_ROLE" EntityType="Self.APP_ROLE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="APP_USER" EntityType="Self.APP_USER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bill" EntityType="Self.bill" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="bill_Details" EntityType="Self.bill_Details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="carts" EntityType="Self.carts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="comment" EntityType="Self.comment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Persistent_Logins" EntityType="Self.Persistent_Logins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="replycomment" EntityType="Self.replycomment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="review" EntityType="Self.review" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="pets" EntityType="Self.pets" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USER_ROLE" EntityType="Self.USER_ROLE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="viewHistory" EntityType="Self.viewHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="findAssociations" EntityType="Self.findAssociations" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[findAssociations].[TID] AS [TID], 
+[findAssociations].[idCus] AS [idCus], 
+[findAssociations].[trans] AS [trans]
+FROM [dbo].[findAssociations] AS [findAssociations]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="options" EntityType="Self.options" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[options].[minsup] AS [minsup], 
+[options].[minconf] AS [minconf]
+FROM [dbo].[options] AS [options]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__address_B__usern__5441852A" Association="Self.FK__address_B__usern__5441852A">
+      <End Role="accounts" EntitySet="accounts" />
+      <End Role="address_Book" EntitySet="address_Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK__APP_USER__USER_N__5535A963" Association="Self.FK__APP_USER__USER_N__5535A963">
+      <End Role="accounts" EntitySet="accounts" />
+      <End Role="APP_USER" EntitySet="APP_USER" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USER_ROLE__ROLE___571DF1D5" Association="Self.FK__USER_ROLE__ROLE___571DF1D5">
+      <End Role="APP_ROLE" EntitySet="APP_ROLE" />
+      <End Role="USER_ROLE" EntitySet="USER_ROLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USER_ROLE__USER___5629CD9C" Association="Self.FK__USER_ROLE__USER___5629CD9C">
+      <End Role="APP_USER" EntitySet="APP_USER" />
+      <End Role="USER_ROLE" EntitySet="USER_ROLE" />
+    </AssociationSet>
+    <AssociationSet Name="USER_ROLE_FK1" Association="Self.USER_ROLE_FK1">
+      <End Role="APP_USER" EntitySet="APP_USER" />
+      <End Role="USER_ROLE" EntitySet="USER_ROLE" />
+    </AssociationSet>
+    <AssociationSet Name="USER_ROLE_FK2" Association="Self.USER_ROLE_FK2">
+      <End Role="APP_ROLE" EntitySet="APP_ROLE" />
+      <End Role="USER_ROLE" EntitySet="USER_ROLE" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

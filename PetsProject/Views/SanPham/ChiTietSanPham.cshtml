@@ -1,0 +1,65 @@
+﻿@using PetsProject.Models
+@model pet
+@{
+    ViewBag.Title = "ChiTietSanPham";
+    Layout = "~/Views/Layout/SingleLayout.cshtml";
+    var quantity = 1;
+}
+
+<div class="container-fluid">
+    <div class="row s_product_inner">
+        <div class="col-lg-6">
+            <div>
+                <div class="single-prd-item">
+                    <img class="img-fluid" src="@Url.Content("~/" + Model.imageslink)" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5 offset-lg-1">
+            <div class="s_product_text">
+                <div class="name&rate">
+                    <h3 class="name_pro" id="name_pro">@Model.name</h3>
+                    @*<span class="rate_star" id="rate_star">@Model.rate</span>*@
+                </div>
+
+                <h2>@Model.price.ToString("#,## VNĐ") <span>@Model.pricebefore.ToString("#,## VNĐ")</span></h2>
+                <ul class="list">
+                    <li><a class="active" href="#"><span>@PetsProject.Resources.Data.Availibility</span> : @Model.status</a></li>
+                    <li><a href="#"><span>@PetsProject.Resources.Data.Category</span> : @Model.type</a></li>
+                    <li><a href="#"><span>@PetsProject.Resources.Data.Color</span> : @Model.color</a></li>
+                    <li><a href="#"><span>Origin</span> : @Model.origin</a></li>
+                    <li><a href="#"><span>Description</span> : @Model.description</a></li>
+                    <li><a href="#"><span>@PetsProject.Resources.Data.CheckQuality</span> : @Model.checkquality</a></li>
+                </ul>
+                <p>
+                    @Model.description
+                </p>
+                <div class="product_count">
+                    <label for="qty">Quantity:</label>
+                    @Html.TextBox("quantity", "1", new { @id = "setQuantity", @class = "input-text qty", Type = "number", @min = "1" })
+                    <input type="number" id="qtyNum" maxlength="12" value="1" min="1" title="Quantity" class="input-text qty" runat="server">
+                    <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+                            class="increase items-count" type="button">
+                        <i class="lnr lnr-chevron-up"></i>
+                    </button>
+                    <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+                            class="reduced items-count" type="button">
+                        <i class="lnr lnr-chevron-down"></i>
+                    </button>
+                </div>
+                <div class="card_area d-flex align-items-center">
+                    @if (Model.status == "AVAILABLE")
+                    {
+                        @Ajax.ActionLink(PetsProject.Resources.Data.AddtoCard, "ThemGioHangAjax", "GioHang", new { @MaSP = Model.id, @strUrl = Request.Url.ToString() }, new AjaxOptions { HttpMethod = "GET", UpdateTargetId = "divGioHang", InsertionMode = InsertionMode.Replace }, new { @class = "btn btn-add btn-sm", @onclick = "alert('Add to cart success!')" })
+                        <a href="/GioHang/ThemGioHang/@(Model.id)"><button type="button" class="btn btn-buy btn-sm">@PetsProject.Resources.Data.BuyNow</button></a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+    $("#productMenu").attr('class', 'nav-item active');
+</script>
+

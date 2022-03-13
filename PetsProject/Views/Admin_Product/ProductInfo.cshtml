@@ -1,0 +1,302 @@
+﻿@model PetsProject.Models.PetsModel
+
+@{
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+
+<!--Header-part-->
+<div id="header">
+    <h1>
+        <a href="dashboard.html">Admin</a>
+    </h1>
+</div>
+<!--close-Header-part-->
+<!--top-Header-menu-->
+<!--sidebar menu-->
+
+<form action="/Admin_Product/SaveInfo" method="post" enctype="multipart/form-data">
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb">
+                <a href="#" title="Go to Home"
+                   class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#" class="tip-bottom">Product</a> <a href="#" class="current">Details</a>
+            </div>
+            <h1>Details of product</h1>
+        </div>
+        <div class="container-fluid">
+            <hr>
+            <div class="row-fluid">
+                <div class="span6">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon">
+                                <i class="icon-align-justify"></i>
+                            </span>
+                            <h5>Basic Information - <span>@ViewBag.successSave</span></h5>
+                            <button id="editButton" type="button" class="btn btn-info"
+                                    onclick="enableFixing()">
+                                Edit
+                            </button>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <div class="form-horizontal">
+                                <div class="control-group">
+                                    <label class="control-label">ID Product :</label>
+                                    <div class="controls">
+                                        <input type="hidden" name="id" value="@Model.id" />
+                                        <input disabled type="text" class="span6" value="@Model.id" />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Name :</label>
+                                    <div class="controls">
+                                        <input disabled type="text" class="span11" name="name" value="@Model.name"
+                                               placeholder="Text..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Size :</label>
+                                    <div class="controls">
+                                        @*<input disabled type="number" class="span11" name="size" value="@Model.size"
+                                            placeholder="Text..." requried />*@
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Material: </label>
+                                    <div class="controls">
+                                        @*<input disabled type="text" class="span11" name="material"
+                                            value="@Model.material" placeholder="Text..." required />*@
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label"> Brand:</label>
+                                    <div class="controls">
+                                        @*<input disabled type="text" class="span11" name="brand"
+                                            value="@Model.brand" placeholder="Text..." required />*@
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Price old: </label>
+                                    <div class="controls">
+                                        <input disabled type="number" class="span11" name="pricebefore"
+                                               value="@Model.pricebefore" placeholder="Text..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Price new: </label>
+                                    <div class="controls">
+                                        <input disabled type="number" class="span11" name="price"
+                                               value="@Model.price" placeholder="Text..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Date :</label>
+                                    <div class="controls">
+                                        @*<input disabled type="date" class="span11" name="date" value="@Model.date"
+                                            placeholder="Text..." required />*@
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Manufactory :</label>
+                                    <div class="controls">
+                                        @*<input disabled type="text" class="span11" name="manufactory"
+                                            value="@Model.manufactory" placeholder="Text..." required />*@
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Category: </label>
+                                    <div class="controls">
+                                        @*<input disabled type="text" class="span11" name="category"
+                                            value="@Model.category" placeholder="Text..." required />*@
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Check quality: </label>
+                                    <div class="controls">
+                                        <input disabled type="text" class="span11" name="checkquality"
+                                               value="@Model.checkquality" placeholder="Text..." required />
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="widget-title">
+                            <span class="icon">
+                                <i class="icon-align-justify"></i>
+                            </span>
+                            <h5>Description</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <div class="form-horizontal">
+                                <div class="control-group">
+                                    <label class="control-label">Width: </label>
+                                    <div class="controls">
+                                        @*<input disabled type="number" class="span11" name="width"
+                                            value="@Model.width" placeholder="Text..." required />*@
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Height:</label>
+                                    <div class="controls">
+                                        @*<input disabled type="number" class="span11" name="height"
+                                            value="@Model.height" placeholder="Text..." required />*@
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Depth: </label>
+                                    <div class="controls">
+                                        @*<input disabled type="number" class="span11" name="depth"
+                                            value="@Model.depth" placeholder="Text..." required />*@
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label"> Weight:</label>
+                                    <div class="controls">
+                                        <input disabled type="number" class="span11" name="weight"
+                                               value="@Model.weight" placeholder="Text..." required />
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label">Description: </label>
+                                    <div class="controls">
+                                        <textarea disabled class="span11" rows="5"
+                                                  value="@Model.description" name="description"
+                                                  placeholder="Enter new description..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="span6">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon">
+                                <i class="icon-align-justify"></i>
+                            </span>
+                            <h5>Image of product</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <img id="blah" src="~/@Model.imageslink" alt="your image">
+
+                            <input type="file" id="imgInp" name="file"><br />
+                        </div>
+                        <div class="widget-title">
+                            <span class="icon">
+                                <i class="icon-align-justify"></i>
+                            </span>
+                            <h5>Form Elements</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <div class="form-horizontal">
+
+                                <div class="control-group">
+                                    <label class="control-label">Status of product</label>
+                                    <div class="controls">
+                                        <select id="chooseStatus" class="span11" name="status">
+                                            @foreach (var item in ViewBag.st)
+                                            {
+                                                if (item == Model.status)
+                                                {
+                                                    <option selected>@item</option>
+                                                }
+                                                else
+                                                {
+                                                    <option>@item</option>
+                                                }
+                                            }
+                                        </select>
+
+                                        <hr>
+                                        <div class="container">
+                                            <!-- Button to Open the Modal -->
+                                            <button type="submit" class="btn btn-success" id="myBtnSave">
+                                                Save Changes
+                                            </button>
+                                            <button type="button" class="btn btn-danger" id="myBtnDelete"
+                                                    data-toggle="modal" data-target="#myModalRemove">
+                                                Remove this product
+                                            </button>
+
+
+                                            <div class="modal" id="myModalRemove" style="display: none;">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+
+                                                        <!-- Modal Header -->
+                                                        <div class="modal-header">
+                                                            <h4 class="modal-title">Confirm</h4>
+                                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        </div>
+
+                                                        <!-- Modal body -->
+                                                        <div class="modal-body">Are you sure to remove this product?</div>
+
+                                                        <!-- Modal footer -->
+                                                        <div class="modal-footer">
+                                                            <a href="/Admin_Product/DeleteProduct/@Model.id"><button type="button" class="btn btn-danger">Remove</button></a>
+                                                            <button type="button" class="btn btn-danger"
+                                                                    data-dismiss="modal">
+                                                                Close
+                                                            </button>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form>
+<script src="~/Scripts/Admin/jquery.min.js"></script>
+<script src="~/Scripts/Admin/jquery.ui.custom.js"></script>
+<script src="~/Scripts/Admin/bootstrap.min.js"></script>
+<script src="~/Scripts/Admin/bootstrap-colorpicker.js"></script>
+<script src="~/Scripts/Admin/bootstrap-datepicker.js"></script>
+<script src="~/Scripts/Admin/jquery.toggle.buttons.js"></script>
+<script src="~/Scripts/Admin/masked.js"></script>
+<script src="~/Scripts/Admin/jquery.uniform.js"></script>
+<script src="~/Scripts/Admin/select2.min.js"></script>
+<script src="~/Scripts/Admin/matrix.js"></script>
+<script src="~/Scripts/Admin/matrix.form_common.js"></script>
+<script src="~/Scripts/Admin/wysihtml5-0.3.0.js"></script>
+<script src="~/Scripts/Admin/jquery.peity.min.js"></script>
+<script src="~/Scripts/Admin/bootstrap-wysihtml5.js"></script>
+
+<script>
+    function enableFixing() {
+        $('#myBtnSave').removeAttr('disabled');
+        $("#editButton").hide();
+        $("#imgInp").show();
+        $(".span11").prop("disabled", false);
+    }
+
+    // For saving image
+    $('#myBtnSave').attr('disabled', 'disabled');
+    $('#imgInp').hide();
+    $('.textarea_editor').wysihtml5();
+    $("#myBtn").click(function () {
+        $("#myModal").modal("show");
+    })
+    $("#productMenu").attr('class', 'active');
+</script>
+
+
+

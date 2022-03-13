@@ -1,0 +1,90 @@
+﻿@using PetsProject.Models;
+@using PagedList.Mvc;
+@model PagedList.IPagedList<pet>
+@{
+    ViewBag.Title = "SanPham";
+    Layout = "~/Views/Layout/ProductLayout.cshtml";
+}
+
+
+
+
+<!-- Start Best Seller -->
+<section class="lattest-product-area pb-40 category-list">
+    <div class="row">
+        <!-- single product -->
+        @foreach (var item in Model.OrderBy(n => n.price))
+        {
+            <div class="col-lg-3 col-md-6">
+                <div class="single-product">
+                    <a href="@Url.Action("ChiTietSanPham","SanPham", new { id = item.id })">
+                        <img class="img-fluid" src="@Url.Content("~/"+item.imageslink)" alt="">
+                    </a>
+                    <div class="product-details text-center mt-4">
+                        <h6>
+                            @item.name
+                        </h6>
+                        <div class="price">
+                            <h6>@item.price.ToString("#,## VND")</h6>
+                            <h6 class="l-through">@item.pricebefore.ToString("#,## VND")</h6>
+                        </div>
+                        <div class="prd-bottom">
+                            @*thêm giỏ hàng bình thường
+                                 <a href="@Url.Action("ThemGioHang","GioHang", new {@MaSP=item.id, @strUrl= Request.Url.ToString()})" class="social-info">
+                                    <span class="ti-bag"></span>
+                                    <p class="hover-text">add to bag</p>
+                                </a>*@
+                            @if (item.status == "AVAILABLE")
+                            {
+                                @*Thêm giỏ hàng Ajax*@
+                                @Ajax.ActionLink(PetsProject.Resources.Data.AddtoCard, "ThemGioHangAjax", "GioHang", new { @MaSP = item.id, @strUrl = Request.Url.ToString() }, new AjaxOptions { HttpMethod = "GET", UpdateTargetId = "divGioHang", InsertionMode = InsertionMode.Replace }, new { @class = "btn btn-add btn-sm", @onclick = "alert('Add to cart success!')" })
+                                <a href="/GioHang/ThemGioHang/@(item.id)"><button type="button" class="btn btn-buy btn-sm">@PetsProject.Resources.Data.BuyNow</button></a>
+                            }
+                            else
+                            {
+                                <p style="color:orange">@item.status</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+<!--Pagination-->
+<div class="pagination">
+
+    <div> @Html.PagedListPager(Model, page => Url.Action("SanPham", new { page = page }))</div>
+    @*<div><h4> @PetsProject.Resources.Data.Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</h4></div>*@
+
+</div>
+<script>
+    $("#productMenu").attr('class', 'nav-item active');
+</script>
+<script>
+    $(function () {
+        $("#searchName").autocomplete({
+            source: function (request, response) {
+                $.ajax({
+                    url: "/SanPham/AutoCompleteSearch",
+                    type: "POST",
+                    dataType: "json",
+                    data: { Prefix: request.term },
+                    success: function (data) {
+                        response($.map(data, function (item) {
+                            return { label: item.name, value: item.name };
+                        }))
+
+                    }
+                })
+            },
+            messages: {
+                noResults: "", results: ""
+            },
+            autoFocus: true
+        });
+    });
+</script>
+<script>
+
+</script>

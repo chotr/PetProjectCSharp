@@ -1,0 +1,65 @@
+﻿
+@model PetsProject.Models.APP_USER
+
+@{
+    ViewBag.Title = "Sign In";
+    Layout = "~/Views/Layout/SignInOutLayout.cshtml";
+}
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="login_box_img">
+                        <img class="img-fluid" src="~/img/login_img.jpg" alt="">
+                        <div class="hover">
+                            <h4>New to our website?</h4>
+                            <p>There are advances being made in science and technology everyday, and a good example of this is the</p>
+                            <a class="btn btn-create" href="@Url.Action("SignUp","Register")">Create an Account</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="login_form_inner \" style="background:white;">
+                        <h3>Log in to enter</h3>
+                        @using (Html.BeginForm("SignIn", "Login", FormMethod.Post, new { @class = "row login_form", @id = "contactForm", onsubmit = "return validateBeforeSigin()" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            HtmlHelper.ClientValidationEnabled = true;
+                            HtmlHelper.UnobtrusiveJavaScriptEnabled = true;
+
+                            <div class="col-md-12 form-group">
+                                @Html.TextBoxFor(m => m.USER_NAME, new { @class = "form-control", @id = "username", placeholder = "Username" })
+                                @Html.ValidationMessageFor(m => m.USER_NAME, "", new { @class = "text-danger float-left" })
+                                <span id="errorUsername"></span>
+
+                            </div>
+                            <div class="col-md-12 form-group">
+                                @Html.PasswordFor(m => m.ENCRYTED_PASSWORD, new { @class = "form-control", @id = "password", placeholder = "Password" })
+                                @Html.ValidationMessageFor(m => m.ENCRYTED_PASSWORD, "", new { @class = "text-danger float-left" })
+                                <span id="errorPassword"></span>
+                                @if (ViewBag.errorSignin != null)
+                                {
+                                    <span class="badge-danger">@ViewBag.errorSignin</span>
+                                }
+
+                            </div>
+                           
+                            <div class="col-md-12 form-group">
+                                <button type="submit" value="submit" class="btn btn-login">Log In</button>
+                                <a href="@Url.Action("Forget","ForgetPass")">Forgot Password?</a>
+                            </div>
+
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script>
+        $("#signinMenu").attr('class', 'nav-item active');
+    </script>
+
+
+
+

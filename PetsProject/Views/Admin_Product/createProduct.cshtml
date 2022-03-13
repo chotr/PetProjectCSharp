@@ -1,0 +1,248 @@
+﻿@model PetsProject.Models.PetsModel
+@{
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+<form action="AddProduct" method="post" enctype="multipart/form-data">
+    <!--Header-part-->
+    <div id="header">
+        <h1>
+            <a href="dashboard.html">Admin</a>
+        </h1>
+    </div>
+    <!--close-Header-part-->
+    <!--top-Header-menu-->
+    <!--sidebar menu-->
+
+
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb">
+                <a href="Index" title="Go to Home"
+                   class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="Index" class="tip-bottom">Product</a> <a href="#" class="current">New Product</a>
+            </div>
+            <h1>Create new product</h1>
+        </div>
+        <div class="container-fluid">
+            <hr>
+            <div class="row-fluid">
+                <div class="span6">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon">
+                                <i class="icon-align-justify"></i>
+                            </span>
+                            <h5>Basic Information</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <div class="form-horizontal">
+                                <div class="control-group">
+                                    <label class="control-label">Name :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11" name="name"
+                                               placeholder="Text..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Size :</label>
+                                    <div class="controls">
+                                        <input type="number" class="span11" name="size"
+                                               placeholder="Number..." requried />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Material: </label>
+                                    <div class="controls">
+                                        <input type="text" class="span11"
+                                               name="material" placeholder="Text..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label"> Brand:</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11"
+                                               name="brand" placeholder="Text..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Price old: </label>
+                                    <div class="controls">
+                                        <input type="number" class="span11"
+                                               name="pricebefore" placeholder="Number..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Price new: </label>
+                                    <div class="controls">
+                                        <input type="number" class="span11"
+                                               name="price" placeholder="Number..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Date :</label>
+                                    <div class="controls">
+                                        <input type="date" class="span11" name="date"
+                                               required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Manufactory :</label>
+                                    <div class="controls">
+                                        <input type="text" class="span11"
+                                               name="manufactory" placeholder="Text..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Category: </label>
+                                    <div class="controls">
+                                        <input type="text" class="span11"
+                                               name="category" placeholder="Text..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Check quality: </label>
+                                    <div class="controls">
+                                        <input type="text" class="span11"
+                                               name="checkquality" placeholder="Text..." required />
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="widget-title">
+                            <span class="icon">
+                                <i class="icon-align-justify"></i>
+                            </span>
+                            <h5>Description</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <div class="form-horizontal">
+                                <div class="control-group">
+                                    <label class="control-label">Width: </label>
+                                    <div class="controls">
+                                        <input type="number" class="span11"
+                                               name="width" placeholder="Number..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Height:</label>
+                                    <div class="controls">
+                                        <input type="number" class="span11"
+                                               name="height" placeholder="Number..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label">Depth: </label>
+                                    <div class="controls">
+                                        <input type="number" class="span11"
+                                               name="depth" placeholder="Number..." required />
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label"> Weight:</label>
+                                    <div class="controls">
+                                        <input type="number" class="span11"
+                                               name="weight" placeholder="Number..." required />
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label">Description: </label>
+                                    <div class="controls">
+                                        <textarea class="span11" rows="5"
+                                                  name="description"
+                                                  placeholder="Enter new description..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="span6">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon">
+                                <i class="icon-align-justify"></i>
+                            </span>
+                            <h5>Image of product</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <img id="blah" src="#" alt="your image">
+                            <p id="imgInfo">You have no image!</p>
+                            <br />
+                            <input type="file" id="imgInp" name="file" required><br />
+                        </div>
+                        <div class="widget-title">
+                            <span class="icon">
+                                <i class="icon-align-justify"></i>
+                            </span>
+                            <h5>Form Elements</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <div class="form-horizontal">
+
+                                <div class="control-group">
+                                    <label class="control-label">Status of product</label>
+                                    <div class="controls">
+                                        <select name="status">
+                                            <option selected>AVAILABLE</option>
+                                            <option>COMING SOON</option>
+                                            <option>OUT OF STOCK</option>
+                                        </select>
+                                        <hr>
+                                        <div class="container">
+                                            <!-- Button to Open the Modal -->
+                                            <button type="submit" class="btn btn-success">
+                                                Create
+                                            </button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form>
+<script src="~/Scripts/Admin/jquery.min.js"></script>
+<script src="~/Scripts/Admin/jquery.ui.custom.js"></script>
+<script src="~/Scripts/Admin/bootstrap.min.js"></script>
+<script src="~/Scripts/Admin/bootstrap-colorpicker.js"></script>
+<script src="~/Scripts/Admin/bootstrap-datepicker.js"></script>
+<script src="~/Scripts/Admin/jquery.toggle.buttons.js"></script>
+<script src="~/Scripts/Admin/masked.js"></script>
+<script src="~/Scripts/Admin/jquery.uniform.js"></script>
+<script src="~/Scripts/Admin/select2.min.js"></script>
+<script src="~/Scripts/Admin/matrix.js"></script>
+<script src="~/Scripts/Admin/matrix.form_common.js"></script>
+<script src="~/Scripts/Admin/wysihtml5-0.3.0.js"></script>
+<script src="~/Scripts/Admin/jquery.peity.min.js"></script>
+<script src="~/Scripts/Admin/bootstrap-wysihtml5.js"></script>
+<script type="text/javascript">
+    $('#blah').hide();
+    $("#imgInfo").show();
+</script>
+<script>
+    $('.textarea_editor').wysihtml5();
+    $("#myBtn").click(function () {
+        $("#myModal").modal("show");
+    })
+    $("#productMenu").attr('class', 'active');
+// $(document).ready(function(){
+//   // Show the Modal on load
+//   // $("#myModal").modal("show");
+
+//   // Hide the Modal
+// ;
+// });
+</script>

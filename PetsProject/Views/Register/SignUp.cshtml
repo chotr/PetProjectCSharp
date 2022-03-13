@@ -1,0 +1,110 @@
+﻿@model PetsProject.Models.account
+
+
+@{
+    ViewBag.Title = "Create new account";
+    Layout = "~/Views/Layout/SignInOutLayout.cshtml";
+}
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="login_box_img">
+                        <img class="img-fluid" src="~/img/sign_up.jpg" alt="">
+                        <div class="hover">
+                            <h4>New to our website?</h4>
+                            <p>There are advances being made in science and technology everyday, and a good example of this is the</p>
+                            <a class="primary-btn" href="@Url.Action("SignIn","Login")">LogIn Account</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="login_form_inner" style="background:white;" >
+                        <h3>Register member</h3>
+                        @using (Html.BeginForm("SignUp", "Register", FormMethod.Post, new {  @class = "row login_form" ,@id="register-form", onsubmit = "return checkValidation();" }))
+                        {
+
+                            @Html.AntiForgeryToken()
+                            HtmlHelper.ClientValidationEnabled = true;
+                            HtmlHelper.UnobtrusiveJavaScriptEnabled = true;
+
+                    <div class="col-md-12 form-group">
+                        @Html.TextBoxFor(m => m.fullname, new { @class = "form-control", placeholder = "FullName" })
+                        @Html.ValidationMessageFor(m => m.fullname, "", new { @class = "text-danger float-left" })
+                        <span id="errFullName"></span>
+
+
+                    </div>
+                            <div class="col-md-12 form-group">
+                                @Html.TextBoxFor(m => m.birthday, new { type = "date", @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.birthday, "", new { @class = "text-danger float-left" })
+                                <span id="errBirthday"></span>
+
+                            </div>
+                            <div class="col-md-12 form-group">
+                                @Html.TextBoxFor(m => m.phone, new { @class = "form-control", placeholder = "PhoneNumber", pattern = "\\d{10}", title="The phone is only number and 10 digits!" })
+                                @Html.ValidationMessageFor(m => m.phone, "", new { @class = "text-danger float-left" })
+                                <span id="errPhone"></span>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                @Html.TextBoxFor(m => m.email, new { @class = "form-control", placeholder = "Email", type = "email", pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$" })
+                                @Html.ValidationMessageFor(m => m.email, "", new { @class = "text-danger float-left" })
+                                <span id="errEmail"></span>
+
+                            </div>
+                            <div class="col-md-12 form-group">
+                                @Html.TextBoxFor(m => m.address, new { @class = "form-control", placeholder = "Address" })
+                                @Html.ValidationMessageFor(m => m.address, "", new { @class = "text-danger float-left" })
+                                <span id="errAddress"></span>
+                            </div>
+                            <div class="col-md-12 form-group">
+
+                                @Html.TextBoxFor(m => m.username, new { @class = "form-control", placeholder = "Username" })
+
+                                @Html.ValidationMessageFor(m => m.username, "", new { @class = "text-danger float-left" })
+                                    <span  id="errorUserName" ></span>
+                                    @if (ViewBag.existUser != null)
+                                    {
+                                        <span class="badge badge-danger">@ViewBag.existUser</span>
+
+                                    }
+                            </div>
+
+                            <div class="col-md-12 form-group">
+                                @Html.PasswordFor(m => m.password, new { @class = "form-control", placeholder = "Password" })
+                                @Html.ValidationMessageFor(m => m.password, "", new { @class = "text-danger float-left" })
+                                <span id="errPassword"></span>
+                            </div>
+                            <div class="col-md-12 form-group">
+
+                                <input type="password" class="form-control" id="repassword" name="repassword" placeholder="Re-Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+                                <span id="errRepassword"></span>
+                                @if (ViewBag.errorPass != null)
+                                {
+                                    <span class="badge badge-danger">@ViewBag.errorPass</span>
+
+                                }
+                            </div>
+
+
+
+                            <div class="col-md-12 form-group">
+                                <input type="submit" value="Register" class="primary-btn" >
+
+                            </div>
+                            @*<div class="col-md-12 form-group">
+                            </div>
+                            <div class="col-md-12 form-group">
+                            </div>
+                            <div class="col-md-12 form-group">
+                            </div>*@
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+<script>
+    $("#signupMenu").attr('class', 'nav-item active');
+</script>
+   

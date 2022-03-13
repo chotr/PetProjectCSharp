@@ -1,0 +1,328 @@
+﻿@model PetsProject.Models.ListAdminAddressModel
+
+@{
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+
+
+<div id="content">
+    <div id="content-header">
+        <div id="breadcrumb">
+            <a href="#" title="Go to Home" class="tip-bottom">
+                <i class="icon-home"></i> Home
+            </a> <a href="#" class="current">bill</a>
+        </div>
+        <h1>Bill Manager</h1>
+    </div>
+    <div class="container-fluid">
+        <hr>
+        <p style="color: green" id="message"></p>
+        <select class="form-control" id="changeListBill"
+                name="changeListBill" onchange="setListBill()">
+            <option selected>RECEIVED ORDER</option>
+            <option>ON THE WAY</option>
+            <option>DELIVERED</option>
+            <option>CANCELLED</option>
+        </select><button type="button" class="btn btn-danger" onclick="resetBill()">Reset bill <i class="fa fa-repeat"></i></button>
+        <div id="listOrderBill" class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"><i class="icon-th"></i></span>
+                        <h5>List of received order bill</h5>
+
+                    </div>
+                    <div class="widget-content nopadding">
+                        <table class="table table-bordered data-table">
+                            <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>ID Bill</th>
+                                    <th>Customer</th>
+                                    <th>Address</th>
+                                    <th>Payment</th>
+                                    <th>TotalCost</th>
+                                    <th>DateTime</th>
+                                    <th>Details</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model != null)
+                                {
+                                    var num = 1;
+                                    foreach (var item in Model.listReceived)
+                                    {
+                                        <tr class="gradeA">
+                                            <td>@num</td>
+                                            <td>@item.id</td>
+                                            <td>@item.name</td>
+                                            <td class="center">@item.address</td>
+                                            <td>@item.payment</td>
+                                            <td>
+                                                @item.totalcost.ToString("#,## VNĐ")
+                                            </td>
+                                            <td>@item.datetime</td>
+                                            <td><a href="/Admin_Address/BillDetails/@(item.id)" target="_blank">View</a></td>
+                                            <td class="text-align-center">
+                                                <div style="position: relative;">
+                                                    <select class="form-control"
+                                                            id="changeStatusBill@(item.id)" name="@item.id"
+                                                            onchange="changeStatusBill(name)">
+                                                        <option selected>RECEIVED ORDER</option>
+                                                        <option>ON THE WAY</option>
+                                                        <option>DELIVERED</option>
+                                                        <option>CANCELLED</option>
+                                                    </select>
+
+                                                    <button id="buttonSaveStatusBill@(item.id)" type="button" name="@item.id" value="@item.status"
+                                                            class="btn btn-info" onclick="saveStatusBill(name, value)" style="display: none;">
+                                                        Save
+                                                    </button>
+                                                    <i id="checkSaveStatusBill@(item.id)" class="fa fa-check-circle" style="font-size:20px;color:green;display: none;"></i>
+                                                    <button id="buttonSendMail@(item.id)" type="button" name="@item.id" value="@item.status"
+                                                            class="btn btn-info" onclick="sendMail(name, value)" style="display: none;">
+                                                        Send email
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        num++;
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="listCancelledBill" class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"><i class="icon-th"></i></span>
+                        <h5>List of cancelled bill</h5>
+
+                    </div>
+                    <div class="widget-content nopadding">
+                        <table class="table table-bordered data-table">
+                            <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>ID Bill</th>
+                                    <th>Customer</th>
+                                    <th>Address</th>
+                                    <th>Payment</th>
+                                    <th>TotalCost</th>
+                                    <th>DateTime</th>
+                                    <th>Details</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model != null)
+                                {
+                                    var num = 1;
+                                    foreach (var item in Model.listCancelled)
+                                    {
+                                        <tr class="gradeA">
+                                            <td>@num</td>
+                                            <td>@item.id</td>
+                                            <td>@item.name</td>
+                                            <td class="center">@item.address</td>
+                                            <td>@item.payment</td>
+                                            <td>
+                                                @item.totalcost
+                                            </td>
+                                            <td>@item.datetime</td>
+                                            <td><a href="/Admin_Address/BillDetails/@(item.id)" target="_blank">View</a></td>
+                                            <td class="text-align-center">
+                                                <div style="position: relative;">
+                                                    <select class="form-control"
+                                                            id="changeStatusBill@(item.id)" name="@item.id"
+                                                            onchange="changeStatusBill(name)">
+                                                        <option>RECEIVED ORDER</option>
+                                                        <option>ON THE WAY</option>
+                                                        <option>DELIVERED</option>
+                                                        <option selected>CANCELLED</option>
+                                                    </select>
+                                                    <button id="buttonSaveStatusBill@(item.id)" type="button" name="@item.id" value="@item.status"
+                                                            class="btn btn-info" onclick="saveStatusBill(name, value)" style="display: none;">
+                                                        Save
+                                                    </button>
+                                                    <i id="checkSaveStatusBill@(item.id)" class="fa fa-check-circle" style="font-size:20px;color:green;display: none;"></i>
+                                                    <button id="buttonSendMail@(item.id)" type="button" name="@item.id" value="@item.status"
+                                                            class="btn btn-info" onclick="sendMail(name, value)" style="display: none;">
+                                                        Send email
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        num++;
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="listOnWayBill" class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"><i class="icon-th"></i></span>
+                        <h5>List bill going on the way</h5>
+
+                    </div>
+                    <div class="widget-content nopadding">
+                        <table class="table table-bordered data-table">
+                            <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>ID Bill</th>
+                                    <th>Customer</th>
+                                    <th>Address</th>
+                                    <th>Payment</th>
+                                    <th>TotalCost</th>
+                                    <th>DateTime</th>
+                                    <th>Details</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model != null)
+                                {
+                                    var num = 0;
+                                    foreach (var item in Model.listOnTheWay)
+                                    {
+                                        <tr class="gradeA">
+                                            <td>@num</td>
+                                            <td>@item.id</td>
+                                            <td>@item.name</td>
+                                            <td class="center">@item.address</td>
+                                            <td>@item.payment</td>
+                                            <td>
+                                                @item.totalcost
+                                            </td>
+                                            <td>@item.datetime</td>
+                                            <td><a href="/Admin_Address/BillDetails/@(item.id)" target="_blank">View</a></td>
+                                            <td class="text-align-center">
+                                                <div style="position: relative;">
+                                                    <select class="form-control"
+                                                            id="changeStatusBill@(item.id)" name="@item.id"
+                                                            onchange="changeStatusBill(name)">
+                                                        <option>RECEIVED ORDER</option>
+                                                        <option selected>ON THE WAY</option>
+                                                        <option>DELIVERED</option>
+                                                        <option>CANCELLED</option>
+                                                    </select>
+                                                    <button id="buttonSaveStatusBill@(item.id)" type="button" name="@item.id" value="@item.status"
+                                                            class="btn btn-info" onclick="saveStatusBill(name, value)" style="display: none;">
+                                                        Save
+                                                    </button>
+                                                    <i id="checkSaveStatusBill@(item.id)" class="fa fa-check-circle" style="font-size:20px;color:green;display: none;"></i>
+                                                    <button id="buttonSendMail@(item.id)" type="button" name="@item.id" value="@item.status"
+                                                            class="btn btn-info" onclick="sendMail(name, value)" style="display: none;">
+                                                        Send email
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        num++;
+                                    }
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="listDeliveredBill" class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"><i class="icon-th"></i></span>
+                        <h5>List of delivered bill</h5>
+
+                    </div>
+                    <div class="widget-content nopadding">
+                        <table class="table table-bordered data-table">
+                            <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>ID Bill</th>
+                                    <th>Customer</th>
+                                    <th>Address</th>
+                                    <th>Payment</th>
+                                    <th>TotalCost</th>
+                                    <th>DateTime</th>
+                                    <th>Details</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model != null)
+                                {
+                                    var num = 1;
+                                    foreach (var item in Model.listDelivered)
+                                    {
+                                        <tr class="gradeA">
+                                            <td>@num</td>
+                                            <td>@item.id</td>
+                                            <td>@item.name</td>
+                                            <td class="center">@item.address</td>
+                                            <td>@item.payment</td>
+                                            <td>
+                                                @item.totalcost
+                                            </td>
+                                            <td>@item.datetime</td>
+                                            <td><a href="/Admin_Address/BillDetails/@(item.id)" target="_blank">View</a></td>
+                                            <td class="text-align-center">
+                                                <div style="position: relative;">
+                                                    <select class="form-control"
+                                                            id="changeStatusBill@(item.id)" name="@item.id"
+                                                            onchange="changeStatusBill(name)">
+                                                        <option>RECEIVED ORDER</option>
+                                                        <option>ON THE WAY</option>
+                                                        <option selected>DELIVERED</option>
+                                                        <option>CANCELLED</option>
+                                                    </select>
+                                                    <button id="buttonSaveStatusBill@(item.id)" type="button" name="@item.id" value="@item.status"
+                                                            class="btn btn-info" onclick="saveStatusBill(name, value)" style="display: none;">
+                                                        Save
+                                                    </button>
+                                                    <i id="checkSaveStatusBill@(item.id)" class="fa fa-check-circle" style="font-size:20px;color:green;display: none;"></i>
+                                                    <button id="buttonSendMail@(item.id)" type="button" name="@item.id" value="@item.status"
+                                                            class="btn btn-info" onclick="sendMail(name, value)" style="display: none;">
+                                                        Send email
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        num++;
+                                    }
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/Admin/jquery.min.js"></script>
+<script src="~/Scripts/Admin/jquery.ui.custom.js"></script>
+<script src="~/Scripts/Admin/bootstrap.min.js"></script>
+<script src="~/Scripts/Admin/jquery.uniform.js"></script>
+<script src="~/Scripts/Admin/select2.min.js"></script>
+<script src="~/Scripts/Admin/jquery.dataTables.min.js"></script>
+<script src="~/Scripts/Admin/matrix.js"></script>
+<script src="~/Scripts/Admin/matrix.tables.js"></script>
+<script>
+    $("#billMenu").attr('class', 'active');
+</script>
+

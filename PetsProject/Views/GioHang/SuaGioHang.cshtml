@@ -1,0 +1,125 @@
+﻿@using PetsProject.Models
+@model cart
+@{
+    ViewBag.Title = "SuaGioHang";
+    Layout = "~/Views/Layout/CartLayout.cshtml";
+}
+@{
+    List<cart> lstGioHang = ViewBag.GioHang as List<cart>;
+}
+<div class="table-responsive" id="here">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">@PetsProject.Resources.Data.CardProduct</th>
+                <th scope="col">@PetsProject.Resources.Data.Price</th>
+                <th scope="col">@PetsProject.Resources.Data.Quantity</th>
+                <th scope="col">@PetsProject.Resources.Data.Total</th>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in lstGioHang)
+            {
+                //Sản phẩm có mã sản phẩm được chỉnh sửa
+                if (Model.idproduct == item.idproduct)
+                {
+                    using (Html.BeginForm("CapNhatGioHang", "GioHang"))
+                    {
+            <tr>
+                @Html.Hidden("idproduct", item.idproduct)@*trùng tên với cột đó*@
+                <td>
+                    <div class="media">
+
+
+                        <div class="d-flex">
+                            <img src="@Url.Content("~/" + @item.pet.imageslink)" width="150" height="100" alt="">
+                        </div>
+                        <div class="media-body">
+
+                            <p>@item.pet.name</p>
+                        </div>
+
+                    </div>
+                </td>
+                <td>
+                    <h5 id="priceSP">@item.price</h5>
+                </td>
+                <td>
+                    @Html.TextBox("quantity", item.quantity, new { @id="editHere", @class = "SoLuongThayDoi", Type="number", @min="1"})
+                    <p id="TB_SoLuongThayDoi"></p>
+                </td>
+                <td>
+                    <h5 id="total">@item.totalcost</h5>
+                </td>
+
+                <td>
+                    <input type="submit" value="Update" id="btnCapNhatGH" />
+                    @Ajax.ActionLink("X", "XoaGioHangAjax", "GioHang", new { @MaSP = item.idproduct }, new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "divGioHang", InsertionMode = InsertionMode.Replace, OnSuccess = "RemoveRow" }, new { @class = "btn btn-danger" })
+
+                </td>
+            </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td>
+                            <div class="media">
+                                <input type="hidden" value="@item.idproduct" id="productid" />
+
+                                <div class="d-flex">
+                                    <img src="@Url.Content("~/" + @item.pet.imageslink)" width="150" height="100" alt="">
+                                </div>
+                                <div class="media-body">
+
+                                    <p>@item.pet.name</p>
+                                </div>
+
+                            </div>
+                        </td>
+                        <td>
+                            <h5 id="priceSP">@item.price</h5>
+                        </td>
+                        <td>
+                            <div class="product_count">
+                                <input type="text" name="quantity" value="@item.quantity" id="sst" maxlength="12" title="Quantity" 
+                                       class="input-text qty" disabled>
+                            </div>
+                        </td>
+                        <td>
+                            <h5 id="total">@item.totalcost</h5>
+                        </td>
+
+                        <td>
+
+                            @Html.ActionLink("Sửa", "SuaGioHang", new { @MaSP = item.idproduct}, new {@class="btn btn-success" })
+
+                            @Ajax.ActionLink("X", "XoaGioHangAjax", "GioHang", new { @MaSP = item.idproduct }, new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "divGioHang", InsertionMode = InsertionMode.Replace, OnSuccess = "RemoveRow" }, new { @class = "btn btn-danger" })
+
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+@*kiểm tra số lượng thay đổi*@
+<style>
+    .SoLuongThayDoi{
+        width:100px;
+    }
+</style>
+<script>
+    var rect = document.getElementById("editHere").getBoundingClientRect();
+    window.scrollTo(rect.left, rect.top);
+
+    $("#btnCapNhatGH").click(function(){
+        var SoLuong = $(".SoLuongThayDoi").val();
+        if(isNaN(SoLuong) == true || SoLuong < 0)
+    {
+        $("#TB_SoLuongThayDoi").text("Số lượng không hợp lệ");
+            return false;
+    }
+    });
+</script>

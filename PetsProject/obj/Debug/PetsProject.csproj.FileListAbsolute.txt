@@ -1,0 +1,1009 @@
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\ShoesProject.dll.config
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\ShoesProject.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\ShoesProject.pdb
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\csc.exe
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\csc.exe.config
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\csc.rsp
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\csi.exe
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\csi.exe.config
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\csi.rsp
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.AppContext.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Console.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Net.Http.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\vbc.exe
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\vbc.exe.config
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\vbc.rsp
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\Antlr3.Runtime.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\Newtonsoft.Json.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.Helpers.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.Mvc.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.Optimization.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.Razor.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.WebPages.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\WebGrease.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.Helpers.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.Mvc.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.Optimization.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.Razor.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.WebPages.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\Newtonsoft.Json.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\Antlr3.Runtime.pdb
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\obj\Debug\ShoesProject.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\obj\Debug\ShoesProject.csproj.CopyComplete
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\obj\Debug\ShoesProject.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNet\ShoesProject\ShoesProject\obj\Debug\ShoesProject.pdb
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\ShoesProject.dll.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\ShoesProject.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\ShoesProject.pdb
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\csc.exe
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\csc.exe.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\csc.rsp
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\csi.exe
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\csi.exe.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\csi.rsp
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.AppContext.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Console.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Globalization.Calendars.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.IO.Compression.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.IO.FileSystem.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Net.Http.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Net.Sockets.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.ValueTuple.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Xml.XPath.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\vbc.exe
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\vbc.exe.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\vbc.rsp
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\VBCSCompiler.exe
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Antlr3.Runtime.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Newtonsoft.Json.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.Helpers.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.Mvc.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.Optimization.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.Razor.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.WebPages.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.WebPages.Razor.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\WebGrease.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.Helpers.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.Mvc.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.Optimization.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.Razor.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.WebPages.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Web.WebPages.Razor.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Newtonsoft.Json.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Antlr3.Runtime.pdb
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\obj\Debug\ShoesProject.csproj.CoreCompileInputs.cache
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\obj\Debug\ShoesProject.csproj.CopyComplete
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\obj\Debug\ShoesProject.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\obj\Debug\ShoesProject.pdb
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\EntityFramework.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\EntityFramework.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Authentication.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Http.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.ObjectPool.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.Options.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.Primitives.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.WebEncoders.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Net.Http.Headers.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Win32.Registry.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Buffers.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.ComponentModel.Annotations.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Memory.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Numerics.Vectors.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Security.AccessControl.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Security.Cryptography.Xml.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Security.Permissions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Security.Principal.Windows.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Text.Encodings.Web.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Authentication.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Http.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.ObjectPool.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.Options.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.Primitives.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Extensions.WebEncoders.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\Microsoft.Net.Http.Headers.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Buffers.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Memory.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Numerics.Vectors.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\System.Text.Encodings.Web.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\PagedList.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\PagedList.Mvc.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\PagedList.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\PagedList.Mvc.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\PayPal.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\bin\PayPal.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet\ShoesProject\obj\Debug\ShoesProject.csproj.AssemblyReference.cache
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\ShoesProject.dll.config
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\ShoesProject.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\ShoesProject.pdb
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\csc.exe
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\csc.exe.config
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\csc.rsp
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\csi.exe
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\csi.exe.config
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\csi.rsp
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.AppContext.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Console.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.IO.Compression.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Net.Http.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.ValueTuple.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\vbc.exe
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\vbc.exe.config
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\vbc.rsp
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Antlr3.Runtime.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\EntityFramework.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.Options.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Win32.Registry.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Newtonsoft.Json.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\PagedList.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\PagedList.Mvc.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\PayPal.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Buffers.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.ComponentModel.Annotations.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Memory.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Numerics.Vectors.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Security.AccessControl.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Security.Cryptography.Xml.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Security.Permissions.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Security.Principal.Windows.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Text.Encodings.Web.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.Helpers.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.Mvc.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.Optimization.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.Razor.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.WebPages.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\WebGrease.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\EntityFramework.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.Options.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\PagedList.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\PagedList.Mvc.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\PayPal.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Buffers.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Memory.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Numerics.Vectors.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Text.Encodings.Web.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.Helpers.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.Mvc.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.Optimization.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.Razor.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.WebPages.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Newtonsoft.Json.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Antlr3.Runtime.pdb
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\obj\Debug\ShoesProject.csprojAssemblyReference.cache
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\obj\Debug\ShoesProject.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\obj\Debug\ShoesProject.csproj.CopyComplete
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\obj\Debug\ShoesProject.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\obj\Debug\ShoesProject.pdb
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\obj\Debug\ShoesProject.csproj.GenerateResource.cache
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\bin\vi-VN\ShoesProject.resources.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\obj\Debug\vi-VN\ShoesProject.resources.dll
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\obj\Debug\ShoesProject.Resources.Data.resources
+C:\Users\Nguyen Tan Tai\OneDrive\Tài liệu\DotNetNew\ProjectASP_Net_MVC_v1.0\ShoesProject\obj\Debug\ShoesProject.Resources.Data.vi-VN.resources
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\ShoesProject.dll.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\ShoesProject.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\ShoesProject.pdb
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\vi-VN\ShoesProject.resources.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\csc.exe
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\csc.exe.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\csc.rsp
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\csi.exe
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\csi.exe.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\csi.rsp
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.AppContext.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Console.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Globalization.Calendars.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.IO.Compression.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.IO.FileSystem.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Net.Http.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Net.Sockets.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.ValueTuple.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Xml.XPath.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\vbc.exe
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\vbc.exe.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\vbc.rsp
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\VBCSCompiler.exe
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Antlr3.Runtime.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\EntityFramework.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Http.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.ObjectPool.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.Options.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.Primitives.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.WebEncoders.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Net.Http.Headers.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Win32.Registry.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Newtonsoft.Json.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\PagedList.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\PagedList.Mvc.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\PayPal.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Buffers.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.ComponentModel.Annotations.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Memory.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Numerics.Vectors.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Security.AccessControl.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Security.Cryptography.Xml.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Security.Permissions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Security.Principal.Windows.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Text.Encodings.Web.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.Helpers.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.Mvc.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.Optimization.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.Razor.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.WebPages.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.WebPages.Razor.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\WebGrease.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\EntityFramework.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Http.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.ObjectPool.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.Options.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.Primitives.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Extensions.WebEncoders.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.Net.Http.Headers.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\PagedList.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\PagedList.Mvc.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\PayPal.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Buffers.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Memory.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Numerics.Vectors.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Text.Encodings.Web.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.Helpers.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.Mvc.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.Optimization.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.Razor.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.WebPages.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\System.Web.WebPages.Razor.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Newtonsoft.Json.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Antlr3.Runtime.pdb
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\obj\Debug\ShoesProject.Resources.Data.resources
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\obj\Debug\ShoesProject.Resources.Data.vi-VN.resources
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\obj\Debug\ShoesProject.csproj.GenerateResource.cache
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\obj\Debug\ShoesProject.csproj.CoreCompileInputs.cache
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\obj\Debug\vi-VN\ShoesProject.resources.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\obj\Debug\ShoesProject.csproj.CopyComplete
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\obj\Debug\ShoesProject.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\obj\Debug\ShoesProject.pdb
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet-NTT (Multi languges)\ShoesProject\obj\Debug\ShoesProject.csproj.AssemblyReference.cache
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\ShoesProject.dll.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\ShoesProject.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\ShoesProject.pdb
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\vi-VN\ShoesProject.resources.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\csc.exe
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\csc.exe.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\csc.rsp
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\csi.exe
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\csi.exe.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\csi.rsp
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.AppContext.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Console.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Globalization.Calendars.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.IO.Compression.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.IO.FileSystem.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Net.Http.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Net.Sockets.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.ValueTuple.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Xml.XPath.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\vbc.exe
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\vbc.exe.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\vbc.rsp
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\VBCSCompiler.exe
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Antlr3.Runtime.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\EntityFramework.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Http.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.ObjectPool.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.Options.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.Primitives.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.WebEncoders.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Net.Http.Headers.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Win32.Registry.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Newtonsoft.Json.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\PagedList.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\PagedList.Mvc.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\PayPal.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Buffers.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.ComponentModel.Annotations.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Memory.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Numerics.Vectors.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Security.AccessControl.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Security.Cryptography.Xml.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Security.Permissions.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Security.Principal.Windows.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Text.Encodings.Web.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.Helpers.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.Mvc.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.Optimization.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.Razor.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.WebPages.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.WebPages.Razor.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\WebGrease.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\EntityFramework.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Http.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.ObjectPool.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.Options.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.Primitives.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Extensions.WebEncoders.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.Net.Http.Headers.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\PagedList.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\PagedList.Mvc.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\PayPal.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Buffers.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Memory.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Numerics.Vectors.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Text.Encodings.Web.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.Helpers.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.Mvc.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.Optimization.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.Razor.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.WebPages.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\System.Web.WebPages.Razor.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Newtonsoft.Json.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Antlr3.Runtime.pdb
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\obj\Debug\ShoesProject.Resources.Data.resources
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\obj\Debug\ShoesProject.Resources.Data.vi-VN.resources
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\obj\Debug\ShoesProject.csproj.GenerateResource.cache
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\obj\Debug\ShoesProject.csproj.CoreCompileInputs.cache
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\obj\Debug\vi-VN\ShoesProject.resources.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\obj\Debug\ShoesProject.csproj.CopyComplete
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\obj\Debug\ShoesProject.dll
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\obj\Debug\ShoesProject.pdb
+D:\Documents\C#\Project\ShoesProject-Dotnet\Project-Dotnet (Final)\ShoesProject\obj\Debug\ShoesProject.csproj.AssemblyReference.cache
+D:\CNTT\LTNET\ShoesProject\bin\PetsProject.dll.config
+D:\CNTT\LTNET\ShoesProject\bin\PetsProject.dll
+D:\CNTT\LTNET\ShoesProject\bin\PetsProject.pdb
+D:\CNTT\LTNET\ShoesProject\bin\vi-VN\PetsProject.resources.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\csc.exe
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\csc.exe.config
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\csc.rsp
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\csi.exe
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\csi.exe.config
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\csi.rsp
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.AppContext.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Collections.Immutable.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Console.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Globalization.Calendars.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.IO.Compression.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.IO.FileSystem.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Net.Http.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Net.Sockets.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.ValueTuple.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Xml.XPath.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\vbc.exe
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\vbc.exe.config
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\vbc.rsp
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\VBCSCompiler.exe
+D:\CNTT\LTNET\ShoesProject\bin\roslyn\VBCSCompiler.exe.config
+D:\CNTT\LTNET\ShoesProject\bin\Antlr3.Runtime.dll
+D:\CNTT\LTNET\ShoesProject\bin\EntityFramework.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Authentication.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Http.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.ObjectPool.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.Options.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.Primitives.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.WebEncoders.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Net.Http.Headers.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Web.Infrastructure.dll
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Win32.Registry.dll
+D:\CNTT\LTNET\ShoesProject\bin\Newtonsoft.Json.dll
+D:\CNTT\LTNET\ShoesProject\bin\PagedList.dll
+D:\CNTT\LTNET\ShoesProject\bin\PagedList.Mvc.dll
+D:\CNTT\LTNET\ShoesProject\bin\PayPal.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Buffers.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.ComponentModel.Annotations.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Memory.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Numerics.Vectors.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Security.AccessControl.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Security.Cryptography.Xml.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Security.Permissions.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Security.Principal.Windows.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Text.Encodings.Web.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.Helpers.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.Mvc.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.Optimization.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.Razor.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.WebPages.Deployment.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.WebPages.dll
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.WebPages.Razor.dll
+D:\CNTT\LTNET\ShoesProject\bin\WebGrease.dll
+D:\CNTT\LTNET\ShoesProject\bin\EntityFramework.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Authentication.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Http.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.ObjectPool.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.Options.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.Primitives.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Extensions.WebEncoders.xml
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.Net.Http.Headers.xml
+D:\CNTT\LTNET\ShoesProject\bin\PagedList.xml
+D:\CNTT\LTNET\ShoesProject\bin\PagedList.Mvc.xml
+D:\CNTT\LTNET\ShoesProject\bin\PayPal.xml
+D:\CNTT\LTNET\ShoesProject\bin\System.Buffers.xml
+D:\CNTT\LTNET\ShoesProject\bin\System.Memory.xml
+D:\CNTT\LTNET\ShoesProject\bin\System.Numerics.Vectors.xml
+D:\CNTT\LTNET\ShoesProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\CNTT\LTNET\ShoesProject\bin\System.Text.Encodings.Web.xml
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.Helpers.xml
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.Mvc.xml
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.Optimization.xml
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.Razor.xml
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.WebPages.xml
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.WebPages.Deployment.xml
+D:\CNTT\LTNET\ShoesProject\bin\System.Web.WebPages.Razor.xml
+D:\CNTT\LTNET\ShoesProject\bin\Newtonsoft.Json.xml
+D:\CNTT\LTNET\ShoesProject\bin\Antlr3.Runtime.pdb
+D:\CNTT\LTNET\ShoesProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CNTT\LTNET\ShoesProject\obj\Debug\PetsProject.csproj.AssemblyReference.cache
+D:\CNTT\LTNET\ShoesProject\obj\Debug\PetsProject.Resources.Data.resources
+D:\CNTT\LTNET\ShoesProject\obj\Debug\PetsProject.Resources.Data.vi-VN.resources
+D:\CNTT\LTNET\ShoesProject\obj\Debug\PetsProject.csproj.GenerateResource.cache
+D:\CNTT\LTNET\ShoesProject\obj\Debug\PetsProject.csproj.CoreCompileInputs.cache
+D:\CNTT\LTNET\ShoesProject\obj\Debug\vi-VN\PetsProject.resources.dll
+D:\CNTT\LTNET\ShoesProject\obj\Debug\PetsProject.csproj.CopyComplete
+D:\CNTT\LTNET\ShoesProject\obj\Debug\PetsProject.dll
+D:\CNTT\LTNET\ShoesProject\obj\Debug\PetsProject.pdb
+D:\LTDOTNET\PetsProject\bin\PetsProject.dll.config
+D:\LTDOTNET\PetsProject\bin\PetsProject.dll
+D:\LTDOTNET\PetsProject\bin\PetsProject.pdb
+D:\LTDOTNET\PetsProject\bin\vi-VN\PetsProject.resources.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\csc.exe
+D:\LTDOTNET\PetsProject\bin\roslyn\csc.exe.config
+D:\LTDOTNET\PetsProject\bin\roslyn\csc.rsp
+D:\LTDOTNET\PetsProject\bin\roslyn\csi.exe
+D:\LTDOTNET\PetsProject\bin\roslyn\csi.exe.config
+D:\LTDOTNET\PetsProject\bin\roslyn\csi.rsp
+D:\LTDOTNET\PetsProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\LTDOTNET\PetsProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\Microsoft.Managed.Core.targets
+D:\LTDOTNET\PetsProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\LTDOTNET\PetsProject\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.AppContext.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Collections.Immutable.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Console.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Globalization.Calendars.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.IO.Compression.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.IO.FileSystem.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Net.Http.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Net.Sockets.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.ValueTuple.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Xml.XmlDocument.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Xml.XPath.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\LTDOTNET\PetsProject\bin\roslyn\vbc.exe
+D:\LTDOTNET\PetsProject\bin\roslyn\vbc.exe.config
+D:\LTDOTNET\PetsProject\bin\roslyn\vbc.rsp
+D:\LTDOTNET\PetsProject\bin\roslyn\VBCSCompiler.exe
+D:\LTDOTNET\PetsProject\bin\roslyn\VBCSCompiler.exe.config
+D:\LTDOTNET\PetsProject\bin\Antlr3.Runtime.dll
+D:\LTDOTNET\PetsProject\bin\EntityFramework.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Authentication.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Http.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.ObjectPool.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.Options.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.Primitives.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.WebEncoders.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.Net.Http.Headers.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.Web.Infrastructure.dll
+D:\LTDOTNET\PetsProject\bin\Microsoft.Win32.Registry.dll
+D:\LTDOTNET\PetsProject\bin\Newtonsoft.Json.dll
+D:\LTDOTNET\PetsProject\bin\PagedList.dll
+D:\LTDOTNET\PetsProject\bin\PagedList.Mvc.dll
+D:\LTDOTNET\PetsProject\bin\PayPal.dll
+D:\LTDOTNET\PetsProject\bin\System.Buffers.dll
+D:\LTDOTNET\PetsProject\bin\System.ComponentModel.Annotations.dll
+D:\LTDOTNET\PetsProject\bin\System.Memory.dll
+D:\LTDOTNET\PetsProject\bin\System.Numerics.Vectors.dll
+D:\LTDOTNET\PetsProject\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\LTDOTNET\PetsProject\bin\System.Security.AccessControl.dll
+D:\LTDOTNET\PetsProject\bin\System.Security.Cryptography.Xml.dll
+D:\LTDOTNET\PetsProject\bin\System.Security.Permissions.dll
+D:\LTDOTNET\PetsProject\bin\System.Security.Principal.Windows.dll
+D:\LTDOTNET\PetsProject\bin\System.Text.Encodings.Web.dll
+D:\LTDOTNET\PetsProject\bin\System.Web.Helpers.dll
+D:\LTDOTNET\PetsProject\bin\System.Web.Mvc.dll
+D:\LTDOTNET\PetsProject\bin\System.Web.Optimization.dll
+D:\LTDOTNET\PetsProject\bin\System.Web.Razor.dll
+D:\LTDOTNET\PetsProject\bin\System.Web.WebPages.Deployment.dll
+D:\LTDOTNET\PetsProject\bin\System.Web.WebPages.dll
+D:\LTDOTNET\PetsProject\bin\System.Web.WebPages.Razor.dll
+D:\LTDOTNET\PetsProject\bin\WebGrease.dll
+D:\LTDOTNET\PetsProject\bin\EntityFramework.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Authentication.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Http.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.ObjectPool.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.Options.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.Primitives.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.Extensions.WebEncoders.xml
+D:\LTDOTNET\PetsProject\bin\Microsoft.Net.Http.Headers.xml
+D:\LTDOTNET\PetsProject\bin\PagedList.xml
+D:\LTDOTNET\PetsProject\bin\PagedList.Mvc.xml
+D:\LTDOTNET\PetsProject\bin\PayPal.xml
+D:\LTDOTNET\PetsProject\bin\System.Buffers.xml
+D:\LTDOTNET\PetsProject\bin\System.Memory.xml
+D:\LTDOTNET\PetsProject\bin\System.Numerics.Vectors.xml
+D:\LTDOTNET\PetsProject\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\LTDOTNET\PetsProject\bin\System.Text.Encodings.Web.xml
+D:\LTDOTNET\PetsProject\bin\System.Web.Helpers.xml
+D:\LTDOTNET\PetsProject\bin\System.Web.Mvc.xml
+D:\LTDOTNET\PetsProject\bin\System.Web.Optimization.xml
+D:\LTDOTNET\PetsProject\bin\System.Web.Razor.xml
+D:\LTDOTNET\PetsProject\bin\System.Web.WebPages.xml
+D:\LTDOTNET\PetsProject\bin\System.Web.WebPages.Deployment.xml
+D:\LTDOTNET\PetsProject\bin\System.Web.WebPages.Razor.xml
+D:\LTDOTNET\PetsProject\bin\Newtonsoft.Json.xml
+D:\LTDOTNET\PetsProject\bin\Antlr3.Runtime.pdb
+D:\LTDOTNET\PetsProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LTDOTNET\PetsProject\obj\Debug\PetsProject.csproj.AssemblyReference.cache
+D:\LTDOTNET\PetsProject\obj\Debug\PetsProject.Resources.Data.resources
+D:\LTDOTNET\PetsProject\obj\Debug\PetsProject.Resources.Data.vi-VN.resources
+D:\LTDOTNET\PetsProject\obj\Debug\PetsProject.csproj.GenerateResource.cache
+D:\LTDOTNET\PetsProject\obj\Debug\PetsProject.csproj.CoreCompileInputs.cache
+D:\LTDOTNET\PetsProject\obj\Debug\vi-VN\PetsProject.resources.dll
+D:\LTDOTNET\PetsProject\obj\Debug\PetsProject.csproj.CopyComplete
+D:\LTDOTNET\PetsProject\obj\Debug\PetsProject.dll
+D:\LTDOTNET\PetsProject\obj\Debug\PetsProject.pdb

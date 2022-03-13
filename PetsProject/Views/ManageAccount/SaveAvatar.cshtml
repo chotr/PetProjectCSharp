@@ -1,0 +1,523 @@
+﻿@model PetsProject.Models.ManageAccountModel
+
+@{
+    Layout = "~/Views/Layout/ManageAccountLayout.cshtml";
+}
+<div class="container">
+    <br />
+    <div class="row features-inner">
+        <div class="container ">
+            <div class="container">
+                <h2>Manage your account</h2>
+                <br>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab1"
+                           data-toggle="tab" href="#general">General</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" id="tab2"
+                           href="#profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" id="tab3"
+                           href="#addressBookTab">Address Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" id="tab4"
+                           href="#bill">Available Bill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" id="tab5"
+                           href="#billcancelled">Cancelled Bill</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="general" class="container tab-pane fade">
+                        <br>
+                        <h3>General</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <b>Personal Profile</b>
+                                    <p>
+                                        Full name: <br /> <span>@(Model.fullname).</span>
+                                    </p>
+                                    <p>
+                                        Email: <br /> <span>@(Model.email).</span>
+                                    </p>
+                                </div>
+                                <div class="col-sm">
+                                    <b>Address Book</b>
+                                    <p>Default:</p>
+                                    <p>@(Model.defaultAddress).</p>
+                                </div>
+                                <div class="col-sm">
+                                    <b>My Payment Default</b>
+                                    <p>CASH</p>
+                                    <p>Paypal</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="profile" class="container tab-pane active">
+                        <br>
+                        <h3>Profile</h3>
+                        <h4>Your Avatar</h4>
+                        <div>
+                            <form action="/ManageAccount/SaveAvatar"
+                                  method="POST" enctype="multipart/form-data">
+                                <img id="blah" src="~/@Model.avatar" alt="Your avatar"
+                                     style="margin: 2%; width: 20%; height: 20%"> <br /> <input type="file" id="imgInp" name="file"><br /> <br />
+                                <button type="submit" class="btn btn-warning" id="saveAvatar">Save my avatar</button>
+                                <p id="uploadImageMessage"></p>
+                            </form>
+                        </div>
+                        <h4>
+                            Basic Information
+                            @ViewBag.Message
+                            <button type="button" class="btn btn-warning"
+                                    onclick="editBasicInfo()">
+                                <i class='fas fa-edit'></i>
+                            </button>
+                        </h4>
+                        <div id="basicInfo">
+                            <p>
+                                Full name: <span id="showFullname">@Model.fullname</span>
+                            </p>
+                            <p>
+                                Phone: <span id="showPhone">@Model.phone</span>
+                            </p>
+                            <p>
+                                Email: <span id="showEmail">@Model.email</span>
+                            </p>
+                            <p>
+                                Permanent address: <span id="showAddress">@Model.address</span>
+                            </p>
+                            <br />
+                        </div>
+                        <div id="basicInfoEdit">
+                            <form id="editBasicInfoForm">
+                                <input type="hidden" id="username"
+                                       value="@Model.username">
+                                <p>
+                                    Full name: <input type="text" class="form-control"
+                                                      value="@Model.fullname" id="fullname" required>
+                                </p>
+                                <p>
+                                    Phone: <input type="text" class="form-control"
+                                                  value="@Model.phone" id="phone" pattern="(\d\D*){10}"
+                                                  title="Phone number should only contain 10 numbers."
+                                                  required>
+                                </p>
+                                <p>
+                                    Email: <input type="text" class="form-control"
+                                                  value="@Model.email" id="email"
+                                                  pattern="[a-z0-9._%+-]+@("@")[a-z0-9.-]+\.[a-z]{2,}$"
+                                                  title="Email address must like example@gmail.com" required>
+                                </p>
+                                <p>
+                                    Permanent address:
+                                    <input type="text" class="form-control" value="@Model.address"
+                                           id="address" required>
+                                </p>
+                                <button type="submit" class="btn btn-warning">Save</button>
+                            </form>
+                            <br />
+                        </div>
+                        <h4>
+                            Signin Information
+                            <button type="button" class="btn btn-warning">
+                                <i class='fas fa-edit' onclick="editSigninInfo()"></i>
+                            </button>
+                        </h4>
+                        <div id="signinInfo">
+                            <p>
+                                Username: <span>@Model.username</span>
+                            </p>
+                            <p>Password: ****</p>
+                            <button type="button" class="btn btn-danger">
+                                Delete My
+                                Account
+                            </button>
+                        </div>
+                        <div id="siginInfoEdit">
+                            <form name="changeSignin" id="sendMail"
+                                  onsubmit="return testPassword()">
+                                <p>
+                                    Username: <span>@Model.username</span>
+                                </p>
+                                <p>
+                                    Enter new password: <input type="password" name="password"
+                                                               id="newpass" required>
+                                </p>
+                                <p>
+                                    Confirm new password: <input type="password" id="confirmpass"
+                                                                 name="rePassword" required>
+                                </p>
+
+                                <button type="submit" class="btn btn-warning">Next</button>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div id="addressBookTab" class="container tab-pane fade">
+                        <br>
+                        <div class="container">
+                            <h4>
+                                Your Address
+                                <button type="button" class="btn btn-warning"
+                                        onclick="addNewAddress()">
+                                    <i class='fa fa-plus'></i>
+                                </button>
+                            </h4>
+                            <br />
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Address</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tableAddressBook">
+                                    @if (Model != null)
+                                    {
+                                        foreach (var item in Model.listAddress)
+                                        {
+                                            <span>
+                                                @if (item.status == "DEFAULT")
+                                                {
+                                                    <tr>
+                                                        <input type="hidden" id="idAddressDefault"
+                                                               value="@item.id">
+
+                                                        <td>@item.address</td>
+                                                        <td id="statusAB@(item.id)">DEFAULT</td>
+                                                    </tr>
+                                                }
+                                                @if (item.status != "DEFAULT")
+                                                {
+                                                    <tr>
+                                                        <td>@item.address</td>
+                                                        <td id="statusAB@(item.id)">
+                                                            <button type="button"
+                                                                    class="btn btn-warning" name="@item.id"
+                                                                    onclick="setAddressDefault(name)">
+                                                                Set Default
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </span>
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                    <div id="bill" class="container tab-pane fade">
+                        <br>
+                        <h4>Your Available Bill</h4>
+                        @if (Model.listAvailableBill.Count() > 0)
+                        {
+                            <p id="checkNumBill">
+                                You have all <span>@(Model.listAvailableBill.Count()) at now</span>.
+                                If you want, you can click
+                                <button type="button" class="btn btn-warning"
+                                        onclick="deleteBillConfirm()">
+                                    CLEAR
+                                </button>
+                                to remove history bill.
+                            </p>
+                        }
+                        else
+                        {
+                            <div>
+                                <p>You have no bill at this time</p>
+                            </div>
+                        }
+                        <p id="billEmpty"></p>
+                        <div class="container" id="billAvailable">
+                            <div class="row">
+                                @foreach (var item in Model.listAvailableBill)
+                                {
+                                    <div class="order_details_table">
+                                        <h2>At @(item.fullDateTime)</h2>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="col">Product</th>
+                                                        <th scope="col">Quantity</th>
+                                                        <th scope="col">Total</th>
+                                                    </tr>
+                                                    @foreach (var itembd in item.listBillDetails)
+                                                    {
+                                                        <tr>
+                                                            <td>
+                                                                <p>@itembd.product</p>
+                                                            </td>
+                                                            <td>
+                                                                <h5>x @(itembd.quantity)</h5>
+                                                            </td>
+                                                            <td>
+                                                                <p>@itembd.price</p>
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                    <tr>
+                                                        <td>
+                                                            <h4>Subtotal</h4>
+                                                        </td>
+                                                        <td>
+                                                            <h5></h5>
+                                                        </td>
+                                                        <td>
+                                                            <p>@item.totalCost</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h4>Payment</h4>
+                                                        </td>
+                                                        <td>
+                                                            <h5></h5>
+                                                        </td>
+                                                        <td>
+                                                            <p>@item.payment</p>
+                                                        </td>
+                                                    </tr>
+                                                    @if (item.payment == "CASH")
+                                                    {
+                                                        <tr>
+                                                            <td>
+                                                                <h4>Address</h4>
+                                                            </td>
+                                                            <td>
+                                                                <h5></h5>
+                                                            </td>
+                                                            <td>
+                                                                <p>NaN</p>
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                    @if (item.note != "")
+                                                    {
+                                                        <tr>
+                                                            <td>
+                                                                <h4>Note</h4>
+                                                            </td>
+                                                            <td>
+                                                                <h5></h5>
+                                                            </td>
+                                                            <td>
+                                                                <p>@item.note</p>
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                    <tr>
+                                                        <td>
+                                                            <h4>Shipping</h4>
+                                                        </td>
+                                                        <td>
+                                                            <h5></h5>
+                                                        </td>
+                                                        <td>
+                                                            <p>Free</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h4>Total</h4>
+                                                        </td>
+                                                        <td>
+                                                            <h5></h5>
+                                                        </td>
+                                                        <td>
+                                                            <p>
+                                                                <b>@item.totalCost</b>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h4>Status</h4>
+                                                        </td>
+                                                        <td>
+                                                            <h5></h5>
+                                                        </td>
+                                                        <td>
+                                                            <p>
+                                                                <b>@item.status</b>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <div id="billcancelled" class="container tab-pane fade">
+                        <br>
+                        <h4>Your Cancelled Bill</h4>
+                        @if (Model.listCancelledBill.Count() > 0)
+                        {
+                            <p id="checkNumCancelledBill">
+                                You have all <span>@(Model.listCancelledBill.Count()) bill at now</span>.
+                                If you want, you can click
+                                <button type="button" class="btn btn-warning"
+                                        onclick="deleteCancelledBillConfirm()">
+                                    CLEAR
+                                </button>
+                                to remove history cancelled bill.
+                            </p>
+                        }
+                        else
+                        {
+                            <div>
+                                <p>You have no bill at this time</p>
+                            </div>
+                        }
+                        <p id="cancelledBillEmpty"></p>
+                        <div class="container" id="cancelledBillAvailable">
+                            <div class="row">
+                                @foreach (var item in Model.listCancelledBill)
+                                {
+                                    <div class="order_details_table">
+                                        <h2>At @(item.fullDateTime)</h2>
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="col">Product</th>
+                                                        <th scope="col">Quantity</th>
+                                                        <th scope="col">Total</th>
+                                                    </tr>
+                                                    @foreach (var itembd in item.listBillDetails)
+                                                    {
+                                                        <tr>
+                                                            <td>
+                                                                <p>@itembd.product</p>
+                                                            </td>
+                                                            <td>
+                                                                <h5>x @(itembd.quantity)</h5>
+                                                            </td>
+                                                            <td>
+                                                                <p>@itembd.price</p>
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                    <tr>
+                                                        <td>
+                                                            <h4>Subtotal</h4>
+                                                        </td>
+                                                        <td>
+                                                            <h5></h5>
+                                                        </td>
+                                                        <td>
+                                                            <p>@item.totalCost</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h4>Payment</h4>
+                                                        </td>
+                                                        <td>
+                                                            <h5></h5>
+                                                        </td>
+                                                        <td>
+                                                            <p>@item.payment</p>
+                                                        </td>
+                                                    </tr>
+                                                    @if (item.payment == "CASH")
+                                                    {
+                                                        <tr>
+                                                            <td>
+                                                                <h4>Address</h4>
+                                                            </td>
+                                                            <td>
+                                                                <h5></h5>
+                                                            </td>
+                                                            <td>
+                                                                <p>NaN</p>
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                    @if (item.note != "")
+                                                    {
+                                                        <tr>
+                                                            <td>
+                                                                <h4>Note</h4>
+                                                            </td>
+                                                            <td>
+                                                                <h5></h5>
+                                                            </td>
+                                                            <td>
+                                                                <p>@item.note</p>
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                    <tr>
+                                                        <td>
+                                                            <h4>Shipping</h4>
+                                                        </td>
+                                                        <td>
+                                                            <h5></h5>
+                                                        </td>
+                                                        <td>
+                                                            <p>Free</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h4>Total</h4>
+                                                        </td>
+                                                        <td>
+                                                            <h5></h5>
+                                                        </td>
+                                                        <td>
+                                                            <p>
+                                                                <b>@item.totalCost</b>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h4>Status</h4>
+                                                        </td>
+                                                        <td>
+                                                            <h5></h5>
+                                                        </td>
+                                                        <td>
+                                                            <p>
+                                                                <b>@item.status</b>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $("#manageAccountMenu").attr('class', 'nav-item active');
+    </script>
+

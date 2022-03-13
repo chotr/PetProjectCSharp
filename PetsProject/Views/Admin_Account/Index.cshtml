@@ -1,0 +1,84 @@
+﻿@model IEnumerable<PetsProject.Models.AccountAdminModel>
+
+@{
+    Layout = "~/Views/Layout/AdminLayout.cshtml";
+}
+
+
+<div id="content">
+    <div id="content-header">
+        <div id="breadcrumb">
+            <a href="#" title="Go to Home" class="tip-bottom">
+                <i class="icon-home"></i> Home
+            </a> <a href="#" class="current">account</a>
+        </div>
+        <h1>Account Manager</h1>
+    </div>
+    <div class="container-fluid">
+        <hr>
+        <b style="color:green;"></b>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"><i class="icon-th"></i></span>
+                        <h5>List of account available</h5>
+
+                    </div>
+                    <div class="widget-content nopadding">
+                        <table class="table table-bordered data-table">
+                            <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>Full name</th>
+                                    <th>User name</th>
+                                    <th>Role</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model != null)
+                                {
+                                    var num = 1;
+                                    foreach (var item in Model)
+                                    {
+                                        <tr class="gradeA">
+                                            <td>@num</td>
+                                            <td>@item.fullname</td>
+                                            <td class="center">@item.username</td>
+                                            <td>@item.role</td>
+                                            <td>@item.status</td>
+                                            <td class="text-align-center">
+                                                <a href="/Admin_Account/ViewInfo/@item.username">
+                                                    <button type="button"
+                                                            class="btn btn-info">
+                                                        Info
+                                                    </button>
+                                                </a>
+                                            </td>
+
+                                        </tr>
+                                        num++;
+                                    }
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/Admin/jquery.min.js"></script>
+<script src="~/Scripts/Admin/jquery.ui.custom.js"></script>
+<script src="~/Scripts/Admin/bootstrap.min.js"></script>
+<script src="~/Scripts/Admin/jquery.uniform.js"></script>
+<script src="~/Scripts/Admin/select2.min.js"></script>
+<script src="~/Scripts/Admin/jquery.dataTables.min.js"></script>
+<script src="~/Scripts/Admin/matrix.js"></script>
+<script src="~/Scripts/Admin/matrix.tables.js"></script>
+<script>
+    $("#accountMenu").attr('class', 'active');
+</script>

@@ -1,0 +1,137 @@
+﻿@using PetsProject.Models
+@{ ViewBag.Title = "Payment Success";
+    Layout = "~/Views/Layout/CheckoutLayout.cshtml";
+    BillIem bi = ViewBag.bill as BillIem;
+    account acc = (account)Session["acc"];
+}
+
+<div class="container">
+    <h3 class="title_confirmation" style="text-align:center;color:green;margin-bottom:5%">
+        @PetsProject.Resources.Data.ThankYou <span>@acc.fullname</span>. @PetsProject.Resources.Data.OrderReceived
+    </h3>
+    <div class="row order_d_inner">
+        <div class="col-lg-4">
+            <div class="details_item">
+                <h4>@PetsProject.Resources.Data.OrderInfo</h4>
+                <ul class="list">
+                    <li>
+                        <a href="#">
+                            <span>@PetsProject.Resources.Data.OrderID @(bi.id)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>@PetsProject.Resources.Data.Date: @(bi.fullDateTime)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="details_item">
+                <h4>---</h4>
+                <ul class="list">
+                    <li>
+                        <a href="#">
+                            <span>@PetsProject.Resources.Data.TotalToPay: @(bi.totalCost)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                @PetsProject.Resources.Data.PaymentMethod: @(bi.payment)
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="details_item">
+                <h4>---</h4>
+                <ul class="list">
+                    <li>
+                        <a href="#">
+                            <span>
+                                @PetsProject.Resources.Data.Address: @(bi.address)
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            @if (bi.note != "")
+                            {
+                            <span>@PetsProject.Resources.Data.Note: @(bi.note)</span>
+                            }
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="order_details_table">
+        <h2>@PetsProject.Resources.Data.YourOrder</h2>
+        <div class="table-responsive">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th scope="col">@PetsProject.Resources.Data.Product</th>
+                        <th scope="col">@PetsProject.Resources.Data.Quantity</th>
+                        <th scope="col">@PetsProject.Resources.Data.Total</th>
+                    </tr>
+                    @foreach (var item in bi.listBillDetails)
+                    {
+                    <tr>
+                        <td>
+                            <p>@item.product</p>
+                        </td>
+                        <td>
+                            <h5>x @(item.quantity)</h5>
+                        </td>
+                        <td>
+                            <p>@item.price</p>
+                        </td>
+                    </tr>
+                    }
+                    <tr>
+                        <td>
+                            <h4>@PetsProject.Resources.Data.SubTotal</h4>
+                        </td>
+                        <td>
+                            <h5></h5>
+                        </td>
+                        <td>
+                            <p>@bi.totalCost</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h4>Shipping</h4>
+                        </td>
+                        <td>
+                            <h5></h5>
+                        </td>
+                        <td>
+                            <p>@PetsProject.Resources.Data.Free</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>@PetsProject.Resources.Data.Total</h4>
+                        </td>
+                        <td>
+                            <h5></h5>
+                        </td>
+                        <td>
+                            <p>
+                                <b>@bi.totalCost</b>
+                            </p>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
